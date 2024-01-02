@@ -1,1 +1,1443 @@
-do local a=[[77fuscator 0.5.0 - discord.gg/CEHsVcBcuf]];return(function(b,c,d,e,f,f,g,h,i,j,k,l,l,m,n,o,p,q,r,s,t,u,u,v,w,w,x,y,y,z,z,z,ba,ba,bb,bb,bb,bc)local bd=104;local be=31;local bf=11;local bg=187;local bh=5;local bi=374;local bj=728;local bk=10;local bl=3;local bm=32;local bn=8;local bo=36;local bp=256;local bq=33095;local br=9;local bs=31507;local bt=2;local bu=6;local bv=1;local bw=4;local bx=0;local by,bz,ca,cb,cc,cc,cd=string.sub,table.concat,string.char,tonumber,next,((table.create or function(by,bz)local ca={};for cb=bv,by do ca[cb]=bz;end;return ca;end))or tostring;local cd=bv;local ce;ce=function(cf)local cg,ch,ci,cj,ck,cl,cm,cn,cn;local cn=bx while true do cn=cn+bv if(cn<bu or cn==bu)then if(cn>bw or cn==bw)then if(cn==bw or cn<bw)then ck=cc(cj)else if not(cn~=bh)then for co=bx,(cj-bv)do local cp=bx while true do cp=(cp+bv)if not(cp~=bv)then ck[co]=ca(co)else break end end end else cl=bv end end else if(cn==bv or cn<bv)then cg,ch=g,g else if not(cn~=bt)then ci=cc(#cf)else cj=bp end end end else if(cn<br or cn==br)then if(cn>bn or cn==bn)then if cn<br then cg=ca(cm())else ci[bv]=cg end else cm=function()local bp=cb(by(cf,cl,cl),bo)cl=cl+bv local bo=cb(by(cf,cl,(cl+bp-bv)),bo)cl=cl+bp return bo end end else if(cn==bk or cn<bk)then while((cl<#cf)and not(#a~=d))do local a;local d=bx while true do d=d+bv if(d==bl or d>bl)then if(d==bl or d<bl)then ck[cj]=(cg..by(ch,bv,bv))else if not(d~=bw)then ci[(#ci+bv)],cg,cj=ch,ch,(cj+bv)else break end end else if(d>bv)then if ck[a]then local d=bx while true do d=(d+bv)if d<bt then ch=ck[a]else break end end else local d=bx while true do d=d+bv if d<bt then ch=cg..by(cg,bv,bv)else break end end end else a=cm()end end end end else if(cn>bf)then break else return bz(ci)end end end end end end local a=ce(b);local b={}c={s,m,k,w,x,q,u,i,l,y,o,j,};local c=v;local d=c(b);local q,s=bv,(((-bs+(function()local q=bi;local s=bg;local v=bq;local w=bt;local x=bj;local y=bd;local bd=bv;local bf=bx;local bg,bi=bf,bd;local q=(function(bj)bj(bj(bj))end)(function(bj)if bg>y then local y=bf while true do y=(y+bd)if(y<w)then return bj else break end end end bg=bg+bd bi=(((bi-x)%v))if(bi%q)<s then local q=bf while true do q=(q+bd)if not(not(q==bd))then return bj(bj((bj and bj)))else break end end else local q=bf while true do q=((q+bd))if not(not(q==w))then break else return bj end end end return bj end)return bi;end)())));local v={}local w;w=function(x,y)local bd,bf,bf,bf;local bf=bx while true do bf=bf+bv if(bf==bt or bf<bt)then if not(bf~=bv)then bd=bx else for bg=bx,be do local be,bi;local bj=bx while true do bj=(bj+bv)if(bj==bw or bj>bw)then if(bj==bw or bj<bw)then y=y/bt else if(bj<bu)then x=(x/bt)else break end end else if(bj<bv or bj==bv)then be=(x%bt)else if not(bj~=bl)then if not(be~=bx)then local be=bx while true do be=be+bv if not(be~=bt)then break else if not(bi~=bv)then local be=bx while true do be=(be+bv)if(be<bv or be==bv)then y=(y-bv)else if(be<bl)then bd=bd+bt^bg else break end end end end end end else local be=bx while true do be=(be+bv)if(be==bt or be>bt)then if not(be~=bt)then if not(bi~=bx)then local be=bx while true do be=be+bv if(be<bt)then bd=bd+bt^bg else break end end else local be=bx while true do be=(be+bv)if not(be~=bt)then break else y=y-bv end end end else break end else x=(x-bv)end end end else bi=y%bt end end end end end end else if bf>bl then break else return bd end end end end local x;x=function(y,bd)local be=0 while true do be=be+1 if(be<bt)then return((y*bt^bd));else break end end end local y;y=function()local bd,be;local bf=bx while true do bf=bf+bv if(bf<bt or bf==bt)then if not(bf~=1)then bd,be=h(a,q,q+bt)else bd,be=w(bd,s),w(be,s);end else if(bf==bw or bf>bw)then if(bf<bh)then return(x(be,bn))+bd;else break end else q=q+bt;end end end end do for s,bd in o,l(cd)do v[s]=bd;end;end;local s=v;local bd;bd=function(be,bf)local bg=bx while true do bg=(bg+bv)if bg>bv then break else return p(be/(2^bf));end end end local p=((2^bm)-bv);local bd;bd=function(be,bf)local bg=bx while true do bg=bg+1 if(bg<bt)then return((((be+bf)-w(be,bf)))/bt)else break end end end local y=y();local be;be=function(bf,bg)local bi=0 while true do bi=bi+bv if(bi>bv)then break else return(p-bd(p-bf,(p-bg)))end end end local p;p=function(bd,be,bf)local bg;local bg=bx while true do bg=(bg+1)if not(bg~=bv)then if bf then local bg;local bi=bx while true do bi=(bi+bv)if(bi<bv or bi==bv)then bg=(bd/bt^(be-bv))%bt^(((bf-bv)-((be-bv))+bv))else if not(bi~=bt)then return bg-(bg%bv)else break end end end else local bf;local bg=bx while true do bg=(bg+bv)if(bg>bt or bg==bt)then if bg<bl then return(((((bd%((bf+bf)))>bf or(bd%((bf+bf)))==bf))and bv)or bx)else break end else bf=(bt^(be-bv))end end end else break end end end local bd;bd=function()local be,bf,bg,bi;local bj=0 local bk=24;while true do bj=bj+1 if(bj==bt or bj<bt)then if(bj<bt)then be,bf,bg,bi=h(a,q,q+3)else be,bf,bg,bi=w(be,y),w(bf,y),w(bg,y),w(bi,y);end else if(bj==3 or bj<3)then q=(q+bw);else if bj<bh then return((x(bi,bk)+x(bg,16)+x(bf,8))+be);else break end end end end end local be;be=function()local bf;local bg=0 while true do bg=bg+1 if(bg==2 or bg<2)then if bg<2 then bf=w(h(a,q,q),y)else q=(q+bv);end else if not(bg~=3)then return bf;else break end end end end local bf,bg,bi;bf=((28+(function()local bj=14513;local bk=773;local bo=2;local bp=944;local bq=8996;local br=1888;local bs=112;local by=1;local bz=272;local ca=0;local cb,cc=ca,by;local bj=(function(cf)cf(cf(cf))end)(function(cf)if cb>bz then local bz=ca while true do bz=((bz+by))if not(not(bz==by))then return cf else break end end end cb=(cb+by)cc=(((cc+bs))%bq)if(not(((cc%br))~=bp)or((cc%br)>bp))then local bp=ca while true do bp=bp+by if(((bp>bo)or not(bp~=bo)))then if not(not(bp==bo))then return cf(cf(cf))else break end else cc=(cc-bk)%bj end end else local bj=ca while true do bj=(bj+by)if bj>by then break else return cf end end end return cf end)return cc;end)()));bg=(-34807+(function()local bj=261;local bk=522;local bo=39257;local bp=0;local bq=481;local br=2;local bs=174;local by=1;local bz,ca=0,by;local bj=(function(cb)cb(cb(((cb and cb))))end)(function(cb)if((bz>bs))then local bs=bp while true do bs=(bs+by)if(bs<br)then return cb else break end end end bz=bz+by ca=(((ca-bq))%bo)if(((ca%bk))<bj)then local bj=bp while true do bj=bj+by if((bj<br))then return cb(cb(cb))else break end end else local bj=bp while true do bj=(bj+by)if(bj<br)then return cb else break end end end return cb end)return ca;end)());bi=((-21676+(function()local bj=138;local bk=48159;local bo=874;local bp=437;local bq=506;local br=37206;local bs=340;local by=35174;local bz=42831;local ca=686;local cb=902;local cc=1804;local cf=250;local cg=31;local ch=503;local ci=1006;local cj=2;local ck=37429;local cl=584;local cm=384;local cn=1;local co=0;local cp,cq=co,cn;local bj=(function(cr,cs,ct)ct(cr(ct,(cs and ct),ct),cr((cs and cs),cr,cs),ct((cs and ct),cr,cs))end)(function(cr,cs,ct)if(cp>cm)then local cm=co while true do cm=((cm+cn))if not(not(cm==cj))then break else return ct end end end cp=(cp+cn)cq=((cq+cl))%ck if(((cq%ci)<ch)or not(((cq%ci))~=ch))then local ch=co while true do ch=(ch+cn)if not(not(ch==cj))then break else return cr(cr(cr,cr,ct),ct(cr and ct,cr,ct),cr(cs,cr,cs))end end else local ch=co while true do ch=((ch+cn))if(ch>cn)then break else return cr end end end return ct end,function(ch,ci,ck)if(cp>cf)then local cf=co while true do cf=(cf+cn)if(cf>cn)then break else return ch end end end cp=(cp+cn)cq=(cq*cg)%bz if((((cq%cc)>cb)or not((cq%cc)~=cb)))then local bz=co while true do bz=(bz+cn)if((not(bz~=cj)or(bz>cj)))then if not(not(bz==cj))then return ck(ck(ci,ck,ch),ci(ch,ci,(ch and ck))and ch(ci,(ch and ck),ck),ci(ch,ci,ch))else break end else cq=((((cq-ca))%by))end end else local by=co while true do by=(by+cn)if((by>cn))then break else return ch end end end return ck end,function(by,bz,ca)if(cp>bs)then local bs=co while true do bs=(bs+cn)if not(not(bs==cj))then break else return ca end end end cp=((cp+cn))cq=((((cq*bq))%br))if((cq%bo)>bp or not(((cq%bo))~=bp))then local bo=co while true do bo=(bo+cn)if((bo>cj or not(bo~=cj)))then if not(not(bo==cj))then return ca else break end else cq=(((cq+bj))%bk)end end else local bj=co while true do bj=(bj+cn)if(bj>cn)then break else return ca((by((ca and ca),ca,ca)and ca(bz,bz and by,ca)),ca(by,bz,bz)and bz(by,ca,ca),by(ca,ca,bz))end end end return by(by(ca,ca,bz),bz(((bz and ca)),by,by),bz(bz,ca and by,ca)and bz(ca,ca,by))end)return cq;end)()));local bj;bj=function()local bk,bo,bp,bq,br,bs;local by=0 local bz=1023;local ca=21;while true do by=(by+1)if(by<bw or by==bw)then if(by>3 or by==3)then if(by<4)then bp=bv else bq=((p(bo,1,20)*(2^bm))+bk)end else if(by<2)then bk,bo=bd(),bd()else if not(bk~=0)and not(bo~=0)then local bk=bx while true do bk=(bk+bv)if not(bk~=bv)then return bx;else break end end end;end end else if(by<bu or by==bu)then if not(by~=6)then bs=((-1)^p(bo,bm))else br=p(bo,ca,31)end else if(by<7 or by==7)then if(not(br~=0))then local bk=bx while true do bk=bk+bv if(bk>bv)then break else if(not(bq~=bx))then local bk=bx while true do bk=bk+bv if not(bk~=bt)then break else return bs*bx;end end else local bk=bx while true do bk=bk+bv if(bk>bt or bk==bt)then if(bk>bt)then break else bp=bx;end else br=bv;end end end;end end elseif(not(br~=2047))then local bk=bx while true do bk=(bk+bv)if not(bk~=bv)then if(not(bq~=bx))then local bk=bx while true do bk=bk+bv if not(bk~=bt)then break else return bs*(bv/bx);end end else local bk=bx while true do bk=(bk+bv)if not(bk~=bt)then break else return(bs*((bx/bx)));end end end;else break end end end;else if(by<9)then return(bs*(2^((br-bz))))*(bp+(bq/(2^52)))else break end end end end end end local bk="\46";local bm;bm=function()local bo,bp;local bq=0 while true do bq=(bq+1)if(bq==3 or bq>3)then if(bq==4 or bq>4)then if not(bq~=bh)then break else return(x(bp,bn))+bo;end else q=(q+2);end else if not(bq~=bv)then bo,bp=h(a,q,q+2)else bo,bp=w(bo,y),w(bp,y);end end end end local bn=bd;local bo;bo=function()local bp,bq,br,bs;local bu=0 local by=717;local bz=1434;local ca=61;local cb=6580;local cc=1424;local cf=582;local cg=263;while true do bu=bu+bv if(bu<3 or bu==3)then if(bu>bt or bu==bt)then if(bu<3)then bq=cg else br=0 end else bp=g end else if(bu==5 or bu>5)then if(bu<6)then local bu=995;local cg=1990;local ch=348;local ci=63;local cj=3290;local ck=712;local cl=795;while(br<bw)do local cm=bx while true do cm=(cm+bv)if(cm==bl or cm>bl)then if(cm==bw or cm>bw)then if not(cm~=bw)then if((br>bw))then local cn=bx while true do cn=(cn+bv)if cn>bv then break else break;end end end;else break end else bq=((bq-cl))end else if(cm<bt)then br=(br+bv);else while((((br<cf))and((bq%cc<ck))))do local cc;local cf=bx while true do cf=(cf+bv)if(cf==bl or cf>bl)then if(cf>bw or cf==bw)then if cf<bh then br=(br+bv);else break end else if((bq%cb))<cj then local bl=bx while true do bl=bl+bv if(bl<bv or bl==bv)then bq=(((bq+ci)))else if not(bl~=bt)then while(br<ch and bq%cg<bu)do local bl;local bu=bx while true do bu=bu+bv if(bu==bt or bu<bt)then if bu<bt then bq=(((bq-ca)))else bl=(br+bq)end else if(bu==bw or bu>bw)then if bu>bw then break else br=(br+bv);end else if((bq%bz))>by then local bl;local bu=0 while true do bu=(bu+1)if(bu==3 or bu>3)then if not(bu~=3)then if not bs[bl]then local by=0 while true do by=by+1 if not(by~=1)then bs[bl]=1;else break end end end else break end else if(bu>1)then bl=83983 else bq=((bq+53))end end end elseif not(not((bq%4)~=0))then local bl;local bu=0 while true do bu=(bu+1)if(bu<2 or bu==2)then if not(bu~=1)then bq=(bq*47)else bl=38968 end else if bu>3 then break else if not bs[bl]then local bu=0 while true do bu=(bu+1)if(bu<2)then bs[bl]=1;else break end end end end end end else local bl;local bu=0 while true do bu=(bu+1)if(bu==3 or bu>3)then if(bu>4 or bu==4)then if not(bu~=4)then if not bs[bl]then local by=0 while true do by=by+1 if not(by~=2)then break else bs[bl]=1;end end end else break end else bl=80561 end else if not(bu~=2)then br=((br+1))else bq=((bq*47))end end end end;end end end end else break end end end elseif not(not((bq%4)~=0))then local bl=0 while true do bl=bl+1 if(bl<1 or bl==1)then bq=(bq+22)else if not(bl~=2)then while((br<311)and bq%562<281)do local bl;local bu=0 while true do bu=(bu+1)if(bu<2 or bu==2)then if not(bu~=2)then bl=br+bq else bq=((bq-51))end else if(bu>4 or bu==4)then if not(bu~=4)then br=((br+1));else break end else if(not((((bq%19988)))~=9994)or((bq%19988))<9994)then local bl;local bu=0 while true do bu=bu+1 if(bu==3 or bu>3)then if(bu<4)then if not bs[bl]then local by=0 while true do by=by+1 if not(by~=2)then break else bs[bl]=1;end end end else break end else if not(bu~=1)then bq=((bq+26))else bl=45649 end end end elseif not(not(((bq%4))~=0))then local bl;local bu=0 while true do bu=(bu+1)if(bu<2 or bu==2)then if not(bu~=2)then bl=28154 else bq=((bq-85))end else if not(bu~=4)then break else if not bs[bl]then local bu,by;local bz=0 while true do bz=bz+1 if(bz<3 or bz==3)then if(bz==2 or bz>2)then if bz<3 then bu,by=bn(),g else if(not(bu~=0))then local bn=0 while true do bn=bn+1 if not(bn~=1)then return g;else break end end end;end else bs[bl]=1;end else if(bz<5 or bz==5)then if not(bz~=5)then q=(q+bu);else bp=j(a,q,((q+bu)-1));end else if not(bz~=7)then break else return z(bp,bk,function(bl)local bn=0 while true do if(bn>0)then break else return i(h(bl))end bn=bn+1 end end);end end end end end end end end else local bl;local bn=0 while true do bn=bn+1 if(bn>3 or bn==3)then if(bn==3 or bn<3)then bl=44951 else if not(bn~=4)then if not bs[bl]then local bu=0 while true do bu=(bu+1)if(bu==1 or bu<1)then bs[bl]=1;else if not(bu~=3)then break else return z(bp,bk,function(bl)local bu=0 while true do if not(1==bu)then return i(h(bl))else break end bu=bu+bv end end);end end end end else break end end else if bn>1 then br=((br+1))else bq=((bq-95))end end end end;end end end end else break end end end else local bl=0 while true do bl=bl+1 if(bl==2 or bl<2)then if not(bl~=1)then bq=((bq*29))else br=(br+1)end else if not(bl~=4)then break else while((br<46 and bq%1414<707))do local bl;local bn=0 while true do bn=(bn+1)if(bn>3 or bn==3)then if(bn<3 or bn==3)then if(((bq%10506))==5253 or((bq%10506))>5253)then local bu;local by=0 while true do by=by+1 if(by==3 or by>3)then if by<4 then if not bs[bu]then local bz=0 while true do bz=bz+1 if(bz==2 or bz>2)then if not(bz~=3)then break else return z(bp,bk,function(bz)local ca=0 while true do if 0<ca then break else return i(h(bz))end ca=ca+bv end end);end else bs[bu]=1;end end end else break end else if(by<2)then bq=((bq-10))else bu=37009 end end end elseif not(not(((bq%4))~=0))then local bu;local by=0 while true do by=by+1 if(by==2 or by<2)then if by>1 then bu=39975 else bq=((bq+88))end else if not(by~=4)then break else if not bs[bu]then local by=0 while true do by=by+1 if(by>2 or by==2)then if by>2 then break else return z(bp,bk,function(by)local bz=0 while true do if(bz<bv)then return i(h(by))else break end bz=(bz+bv)end end);end else bs[bu]=1;end end end end end end else local bu;local by=0 while true do by=(by+1)if(by<2 or by==2)then if not(by~=1)then bq=(bq*4)else br=(br+1)end else if(by<3 or by==3)then bu=45203 else if not(by~=4)then if not bs[bu]then local by=0 while true do by=(by+1)if(by>2 or by==2)then if by<3 then return z(bp,bk,function(bp)local by=0 while true do if not(0~=by)then return i(h(bp))else break end by=(by+1)end end);else break end else bs[bu]=1;end end end else break end end end end end;else if not(bn~=5)then break else br=(br+1);end end else if(bn>1)then bl=(br+bq)else bq=((bq-90))end end end end end end end end;end else if cf<2 then bq=(((bq*41)))else cc=br+bq end end end end end end end end;else break end else bs={}end end end end local bl=bd;local bl;bl=function(...)local bn=0 while true do bn=(bn+bv)if(bn<2)then return{...},n("\35",...)else break end end end local bn;bn=function()local bp,bq,br,bs,bu,by,bz,bz,bz,bz,ca,cb,cc,cf,cg,ch,ci,cj,ck,cl,cm,cn,co,cp,cq,cr,cs,ct,cu,cv,cw,cx,cy,cz,da,db,dc,dd,de,df,dg,dh,di,dj,dk,dl,dm,dn,_do,dp,dq,dr,ds,dt,dt,dt,dt,du,dv,dw;local dw=0 local dx=13918;local dy=498;local dz=137;local ea=1736;local eb=16;while true do dw=(dw+bv)if(dw==32 or dw<32)then if(dw<eb or dw==eb)then if(dw<8 or dw==8)then if(dw>5 or dw==5)then if(dw>7 or dw==7)then if not(dw~=7)then local eb=249;local ec=672;local ed=22;local ee=274;local ef=40;local eg=868;local eh=850;while(du<bh)do local ei=bx while true do ei=(ei+bv)if(ei<bt or ei==bt)then if(ei>bv)then while((du<eh)and((dt%ea)<eg))do local ea;local eg=bx while true do eg=(eg+bv)if(eg<bt or eg==bt)then if eg>bv then ea=du+dt else dt=((dt-ef))end else if(eg>bw or eg==bw)then if eg<bh then du=((du+bv));else break end else if(((dt%ee))<dz)then local bh=bx while true do bh=bh+bv if(bh==bv or bh<bv)then dt=(dt*ed)else if not(bh~=bt)then while(du<ec and dt%dy<eb)do local bh;local bw=bx while true do bw=bw+bv if(bw==bt or bw<bt)then if not(bw~=bt)then bh=du+dt else dt=(dt*34)end else if(bw>4 or bw==4)then if not(bw~=5)then break else du=(du+1);end else if(((dt%dx))<6959 or not(((dt%13918))~=6959))then local bh;local bt=0 while true do bt=bt+1 if(bt==3 or bt>3)then if not(bt~=4)then break else if not dv[bh]then local bv=0 while true do bv=bv+1 if(bv==2 or bv>2)then if bv<3 then by[bd()]=nil;else break end else dv[bh]=1;end end end end else if not(bt~=2)then bh=52999 else dt=((dt-45))end end end elseif not((dt%4)==0)then local bh;local bt=0 while true do bt=bt+1 if(bt==2 or bt<2)then if not(bt~=1)then dt=(dt*24)else bh=64314 end else if not(bt~=4)then break else if not dv[bh]then local bt=0 while true do bt=bt+1 if(bt>2 or bt==2)then if not(bt~=2)then by[bd()]=nil;else break end else dv[bh]=1;end end end end end end else local bh;local bt=0 while true do bt=(bt+1)if(bt==2 or bt<2)then if not(bt~=1)then dt=((dt-84))else du=((du+1))end else if(bt==4 or bt>4)then if not(bt~=5)then break else if not dv[bh]then local bt=0 while true do bt=(bt+1)if(bt==1 or bt<1)then dv[bh]=1;else if not(bt~=2)then by[bd()]=nil;else break end end end end end else bh=73585 end end end end;end end end end else break end end end elseif not(not((dt%4)~=0))then local bh=0 while true do bh=(bh+1)if(bh>2 or bh==2)then if not(bh~=2)then while(du<23)and dt%708<354 do local bh;local bt=0 while true do bt=bt+1 if(bt==2 or bt<2)then if not(bt~=1)then dt=(((dt-86)))else bh=du+dt end else if(bt==3 or bt<3)then if(((dt%14988))<7494)then local bh;local bv=0 while true do bv=bv+1 if(bv<2 or bv==2)then if(bv<2)then dt=((dt-98))else bh=32248 end else if(bv>3)then break else if not dv[bh]then local bv=0 while true do bv=bv+1 if(bv>3 or bv==3)then if not(bv~=3)then bu[bi]=by;else break end else if(bv>1)then for bv=1,bd()do local bw;local dx=0 while true do dx=dx+1 if(dx==1 or dx<1)then bw=be()else if dx<3 then if((not(bw~=1)))then local dx=0 while true do dx=(dx+1)if not(dx~=2)then break else by[bv]=nil;end end elseif(not(bw~=0))then local dx=0 while true do dx=dx+1 if not(dx~=1)then by[bv]=(not(not(be()~=0)));else break end end elseif(not(not(bw==3)))then local dx=0 while true do dx=dx+1 if(dx<2)then by[bv]=bj();else break end end elseif(not(bw~=2))then local bj=0 while true do bj=(bj+1)if bj>1 then break else by[bv]=bo();end end end;else break end end end end;else dv[bh]=1;end end end end end end end elseif not(not((dt%4)~=0))then local bh;local bj=0 while true do bj=bj+1 if(bj>3 or bj==3)then if not(bj~=3)then if not dv[bh]then local bo=0 while true do bo=(bo+1)if(bo==2 or bo>2)then if bo>2 then break else by[bd()]=nil;end else dv[bh]=1;end end end else break end else if bj<2 then dt=(((dt-11)))else bh=36370 end end end else local bh;local bj=0 while true do bj=(bj+1)if(bj==3 or bj>3)then if(bj==4 or bj>4)then if not(bj~=4)then if not dv[bh]then local bo=0 while true do bo=bo+1 if(bo==1 or bo<1)then dv[bh]=1;else if(bo>2)then break else by[bd()]=nil;end end end end else break end else bh=12371 end else if not(bj~=2)then du=(du+1)else dt=((dt*48))end end end end;else if not(bt~=4)then du=((du+1));else break end end end end end else break end else dt=(dt*10)end end else local bh=0 while true do bh=(bh+1)if(bh<2 or bh==2)then if bh<2 then dt=(((dt+78)))else du=((du+1))end else if(bh<4)then while(du<917 and dt%1072<536)do local bh;local bj=0 while true do bj=(bj+1)if(bj==2 or bj<2)then if(bj<2)then dt=(((dt*95)))else bh=du+dt end else if(bj<3 or bj==3)then if((dt%7410)<3705)then local bh;local bo=0 while true do bo=(bo+1)if(bo>3 or bo==3)then if(bo<4)then if not dv[bh]then local bt=0 while true do bt=(bt+1)if(bt<1 or bt==1)then dv[bh]=1;else if bt<3 then by[bd()]=nil;else break end end end end else break end else if not(bo~=1)then dt=(((dt+74)))else bh=41481 end end end elseif not(dt%4==0)then local bh;local bo=0 while true do bo=(bo+1)if(bo==2 or bo<2)then if not(bo~=2)then bh=52405 else dt=((dt-94))end else if(bo>3)then break else if not dv[bh]then local bo=0 while true do bo=(bo+1)if(bo>2 or bo==2)then if(bo<3)then by[bd()]=nil;else break end else dv[bh]=1;end end end end end end else local bh;local bo=0 while true do bo=(bo+1)if(bo<2 or bo==2)then if not(bo~=2)then du=(du+1)else dt=(dt+39)end else if(bo==3 or bo<3)then bh=43138 else if bo>4 then break else if not dv[bh]then local bo=0 while true do bo=bo+1 if(bo==2 or bo>2)then if bo<3 then by[bd()]=nil;else break end else dv[bh]=1;end end end end end end end end;else if not(bj~=5)then break else du=du+1;end end end end end else break end end end end;end end end end else du=(du+1);end else if(ei>4 or ei==4)then if not(ei~=5)then break else if du>14 then local bh=0 while true do bh=(bh+1)if bh>1 then break else break;end end end;end else dt=((dt-397))end end end end;else bz=79 end else if not(dw~=5)then du=0 else dv={}end end else if(dw>3 or dw==3)then if(dw<4)then by={}else dt=557 end else if not(dw~=1)then bp,bq,br,bs={},{},{},{}else bu=m({[bf]=bp,nil,[bg]=bq,nil,[126]=bs,[203]=bb,[208]=nil},{['\95\95\116\111\115\116\114\105\110\103']=function(...)return j(a,q,q);end,})end end end else if(dw<12 or dw==12)then if(dw>11 or dw==11)then if dw<12 then cc=5 else cf=23411 end else if(dw<10)then ca=83292 else cb=67591 end end else if(dw>15 or dw==15)then if dw<16 then ci=1126 else cj=693 end else if not(dw~=13)then cg=563 else ch=4295 end end end end else if(dw<24 or dw==24)then if(dw==21 or dw>21)then if(dw==22 or dw<22)then if(dw<22)then co=2 else cp=52304 end else if not(dw~=23)then cq=76 else cr=596 end end else if(dw<18 or dw==18)then if not(dw~=17)then ck=3 else cl=27 end else if dw>19 then cn=1811 else cm=50 end end end else if(dw==28 or dw<28)then if(dw<26 or dw==26)then if(dw<26)then cs=3622 else ct=9 end else if not(dw~=27)then cu=1192 else cv=784 end end else if(dw>31 or dw==31)then if not(dw~=32)then cz=2658 else cy=41869 end else if(dw>29)then cx=6 else cw=22 end end end end end else if(dw>49 or dw==49)then if(dw>57 or dw==57)then if(dw<60 or dw==60)then if(dw>59 or dw==59)then if not(dw~=59)then dt=44 else du=0 end else if dw<58 then for a=1,bd()do local j=0 while true do j=j+1 if j<2 then bq[(a-1)]=bn();else break end end end;else do local a=0 while true do a=a+1 if(a==1 or a<1)then for j=1,#bu[bf]do local q,bb,bh,bj;local bo=0 while true do bo=(bo+1)if(bo<3 or bo==3)then if(bo==2 or bo>2)then if(bo<3)then bb,bh,bj=q[584],q[223],q[108]else if not(not(c(bb)==f))then local bq=0 while true do bq=(bq+1)if(bq<1 or bq==1)then bb=z(bb,bk,function(br,bs)return i(w(h(br),y))end)else if(bq>2)then break else q[584]=bb end end end end end else q=bu[bf][j]end else if(bo<4 or bo==4)then if(not(c(bh)~=f))then local j=0 while true do j=(j+1)if(j==2 or j>2)then if not(j~=2)then q[223]=bh else break end else bh=z(bh,bk,function(j,bb,bb,bb,bb)return i(w(h(j),y))end)end end end else if not(bo~=5)then if not(not(c(bj)==f))then local j=0 while true do j=j+1 if(j==1 or j<1)then bj=z(bj,bk,function(z,bb,bb)return i(w(h(z),y))end)else if not(j~=3)then break else q[108]=bj end end end end;else break end end end end end;else if(a>2)then break else bu[bi]=nil;end end end end;end end else if(dw<62 or dw==62)then if not(dw~=61)then dv={}else while du<5 do local a=0 while true do a=(a+1)if(a>3 or a==3)then if(a==3 or a<3)then dt=((dt-611))else if not(a~=5)then break else if du>37 then local h=0 while true do h=h+1 if(h<2)then break;else break end end end;end end else if a<2 then du=(du+1);else while du<983 and dt%344<172 do local a;local h=0 while true do h=h+1 if(h==2 or h<2)then if h<2 then dt=(dt*1)else a=du+dt end else if(h<3 or h==3)then if((dt%11138)>5569 or(dt%11138)==5569)then local a=0 while true do a=(a+1)if(a==2 or a>2)then if a>2 then break else while du<203 and((dt%204)<102)do local a;local i=0 while true do i=(i+1)if(i==3 or i>3)then if(i==4 or i>4)then if(i<5)then du=(du+1);else break end else if(((dt%2856))<1428 or((dt%2856))==1428)then local j;local q=0 while true do q=q+1 if(q<2 or q==2)then if not(q~=1)then dt=(dt*78)else j=80994 end else if q<4 then if not dv[j]then local q=0 while true do q=q+1 if(q==2 or q>2)then if(q>2)then break else return bu end else dv[j]=1;end end end else break end end end elseif not(dt%4==0)then local j;local q=0 while true do q=(q+1)if(q==3 or q>3)then if(q<4)then if not dv[j]then local y=0 while true do y=y+1 if(y==1 or y<1)then dv[j]=1;else if not(y~=3)then break else return bu end end end end else break end else if(q>1)then j=78478 else dt=((dt-72))end end end else local j;local q=0 while true do q=(q+1)if(q<2 or q==2)then if not(q~=2)then du=(du+1)else dt=(dt*4)end else if(q==3 or q<3)then j=3040 else if not(q~=4)then if not dv[j]then local q=0 while true do q=q+1 if(q<1 or q==1)then dv[j]=1;else if(q>2)then break else return bu end end end end else break end end end end end;end else if not(i~=2)then a=(du+dt)else dt=(dt+93)end end end end end else dt=((dt+27))end end elseif not((dt%4)==0)then local a=0 while true do a=(a+1)if(a>2 or a==2)then if not(a~=3)then break else while du<674 and dt%90<45 do local a;local i=0 while true do i=i+1 if(i>3 or i==3)then if(i==4 or i>4)then if i<5 then du=(du+1);else break end else if(((dt%17316))==8658 or((dt%17316))>8658)then local j;local q=0 while true do q=q+1 if(q<2 or q==2)then if q<2 then dt=((dt+8))else j=6090 end else if(q>3)then break else if not dv[j]then local q=0 while true do q=(q+1)if(q==1 or q<1)then dv[j]=1;else if(q>2)then break else return bu end end end end end end end elseif not((dt%4)==0)then local j;local q=0 while true do q=q+1 if(q==3 or q>3)then if q>3 then break else if not dv[j]then local y=0 while true do y=y+1 if(y==2 or y>2)then if not(y~=2)then return bu else break end else dv[j]=1;end end end end else if q<2 then dt=(dt+24)else j=32651 end end end else local j;local q=0 while true do q=q+1 if(q<2 or q==2)then if(q<2)then dt=(dt-53)else du=(du+1)end else if(q<3 or q==3)then j=94145 else if not(q~=5)then break else if not dv[j]then local q=0 while true do q=(q+1)if(q==1 or q<1)then dv[j]=1;else if not(q~=3)then break else return bu end end end end end end end end end;end else if i<2 then dt=((dt*74))else a=du+dt end end end end end else dt=(dt+17)end end else local a=0 while true do a=(a+1)if(a<2 or a==2)then if not(a~=1)then dt=((dt+26))else du=du+1 end else if not(a~=3)then while((du<417)and(dt%1118<559))do local a;local i=0 while true do i=(i+1)if(i==3 or i>3)then if(i>4 or i==4)then if i>4 then break else du=(du+1);end else if(((dt%156))<78)then local j;local q=0 while true do q=(q+1)if(q==2 or q<2)then if(q<2)then dt=(dt+21)else j=26038 end else if(q>3)then break else if not dv[j]then local q=0 while true do q=(q+1)if(q==1 or q<1)then dv[j]=1;else if q>2 then break else return bu end end end end end end end elseif not(dt%4==0)then local j;local q=0 while true do q=(q+1)if(q==2 or q<2)then if q<2 then dt=((dt+89))else j=7193 end else if(q<4)then if not dv[j]then local q=0 while true do q=q+1 if(q==2 or q>2)then if not(q~=3)then break else return bu end else dv[j]=1;end end end else break end end end else local j;local q=0 while true do q=q+1 if(q<2 or q==2)then if q<2 then dt=((dt*56))else du=du+1 end else if(q<3 or q==3)then j=84977 else if not(q~=5)then break else if not dv[j]then local q=0 while true do q=(q+1)if(q==2 or q>2)then if not(q~=3)then break else bu[208]=function(...)local q=n(1,...);local q=({...});do for y=bx,#q do if not(c(q[y])~=d)then for z,z in o,q[y]do if not(c(z)~=c(g))then t(b,z)end end else t(b,q[y])end end end local function y(z)local u=u(z)for u=bx,#b do if ba(z,b[u])then return ce(f);end end return false end for b=0,#q do if not(c(q[b])~=d)then return y(q[b])end end end end else dv[j]=1;end end end end end end end end;end else if i>1 then a=(du+dt)else dt=(dt+46)end end end end else break end end end end;else if(h<5)then du=du+1;else break end end end end end end end end end;end else if not(dw~=63)then return bu;else break end end end else if(dw>53 or dw==53)then if(dw>55 or dw==55)then if not(dw~=56)then bu[650]=be();else while du<dn do local a=0 while true do a=(a+1)if(a==2 or a<2)then if(a<2)then du=((du+dn));else while(((du<ds)and(((dt%db))<dp)))do local b;local f=0 while true do f=(f+1)if(f>3 or f==3)then if(f==4 or f>4)then if f<5 then du=(du+dn);else break end else if((dt%dm))>dk then local h=0 while true do h=(h+1)if(h>2 or h==2)then if(h>2)then break else while(((du<dj)and(dt%dh<di)))do local h;local i=0 while true do i=(i+1)if(i==3 or i>3)then if(i==3 or i<3)then if(((dt%dc)))>dg then local j;local q=0 while true do q=(q+1)if(q==2 or q<2)then if not(q~=2)then j=de else dt=(dt+dd)end else if not(q~=4)then break else if not dv[j]then local q=0 while true do q=q+1 if not(q~=2)then break else dv[j]=dn;end end end end end end elseif not(not(((dt%da))~=dr))then local j;local q=0 while true do q=q+1 if(q==2 or q<2)then if(q<2)then dt=((dt*ct))else j=cz end else if q>3 then break else if not dv[j]then local q=0 while true do q=q+1 if not(q~=2)then break else dv[j]=dn;end end end end end end else local j;local q=0 while true do q=q+1 if(q>3 or q==3)then if(q==3 or q<3)then j=cy else if not(q~=4)then if not dv[j]then local u=0 while true do u=(u+1)if not(u~=2)then break else dv[j]=dn;end end end else break end end else if(q>1)then du=(du+dn)else dt=(((dt+cw)))end end end end;else if not(i~=5)then break else du=(du+dn);end end else if(i<2)then dt=((dt-df))else h=(du+dt)end end end end end else dt=((dt-dl))end end elseif not(not(((dt%da))~=dr))then local h=0 while true do h=(h+1)if(h<1 or h==1)then dt=((dt*cx))else if(h<3)then while(du<cv and((((dt%cu))<cr)))do local h;local i=0 while true do i=i+1 if(i>3 or i==3)then if(i<3 or i==3)then if((((dt%cs)))<cn)then local j;local q=0 while true do q=q+1 if(q<2 or q==2)then if(q<2)then dt=((dt+cq))else j=cp end else if(q>3)then break else if not dv[j]then local q,u,y,z;local bb=0 while true do bb=bb+1 if(bb==3 or bb<3)then if(bb>2 or bb==2)then if(bb>2)then u=co else q=dn end else dv[j]=dn;end else if(bb==5 or bb<5)then if(bb>4)then z=da else y=ck end else if bb>6 then break else for j=dn,bd()do local z,bb;local bh=0 while true do bh=(bh+1)if(bh<2 or bh==2)then if bh<2 then z=be()else bb=p(z,q,q)end else if not(bh~=4)then break else if(not(not(bb==0)))then local bb,be,bh;local bi=0 while true do bi=(bi+1)if(bi>4 or bi==4)then if(bi<5 or bi==5)then if not(bi~=4)then if(not(not(p(be,u,u)==q)))then local bj=0 while true do bj=(bj+1)if bj<2 then bh[223]=by[bh[223]];else break end end end;else if(not(not(not(p(be,y,y)~=q))))then local bj=0 while true do bj=(bj+1)if(bj<2)then bh[108]=by[bh[108]];else break end end end;end else if not(bi~=7)then break else bp[j]=bh;end end else if(bi>2 or bi==2)then if(bi<3)then if(((not(not(bb==dr))))or(not(not(not(bb~=q)))))then local j=0 while true do j=(j+1)if(j==1 or j<1)then bh[223]=bd();else if(j<3)then if(not(not(bb==dr)))then local j=0 while true do j=(j+1)if not(j~=2)then break else bh[108]=bd();end end end;else break end end end elseif((((not(not(bb==u)))or(not(not(bb==y))))))then local j=0 while true do j=(j+1)if(j==1 or j<1)then bh[223]=(((bd()-(e))));else if(j>2)then break else if(not(not(not(bb~=y))))then local e=0 while true do e=e+1 if not(e~=2)then break else bh[108]=bm();end end end;end end end end;else if(not(not(p(be,q,q)==q)))then local e=0 while true do e=e+1 if not(e~=1)then bh[584]=by[bh[584]];else break end end end;end else bb,be,bh=p(z,u,y),p(z,da,6),m({[516]=bm(),[584]=bm(),nil,nil},{['\95\95\116\111\115\116\114\105\110\103']=function(...)return p(z,u,y);end,})end end end end;end end end end;end end end end end end end end elseif not(not(dt%da~=dr))then local e;local j=0 while true do j=(j+1)if(j==3 or j>3)then if(j>3)then break else if not dv[e]then local p=0 while true do p=(p+1)if(p>1)then break else dv[e]=dn;end end end end else if not(j~=2)then e=81446 else dt=((dt*cm))end end end else local e;local j=0 while true do j=(j+1)if(j==3 or j>3)then if(j>4 or j==4)then if not(j~=5)then break else if not dv[e]then local p=0 while true do p=(p+1)if(p>1)then break else dv[e]=dn;end end end end else e=55123 end else if not(j~=2)then du=(du+1)else dt=((dt*cc))end end end end;else if i>4 then break else du=du+dn;end end else if not(i~=2)then h=((du+dt))else dt=((dt*cl))end end end end else break end end end else local e=0 while true do e=(e+1)if(e>3 or e==3)then if not(e~=3)then while((((du<cj))and(((dt%ci))<cg)))do local h;local i=0 while true do i=i+1 if(i==2 or i<2)then if i>1 then h=(du+dt)else dt=((dt-cw))end else if(i==3 or i<3)then if((not(((dt%8590))~=ch)or(dt%8590)>ch))then local h;local j=0 while true do j=(j+1)if(j>3 or j==3)then if(j>3)then break else if not dv[h]then local p=0 while true do p=p+1 if not(p~=1)then dv[h]=dn;else break end end end end else if(j<2)then dt=((dt+bz))else h=cf end end end elseif not(not(((dt%4))~=dr))then local h;local j=0 while true do j=(j+1)if(j==3 or j>3)then if not(j~=3)then if not dv[h]then local p=0 while true do p=p+1 if not(p~=2)then break else dv[h]=dn;end end end else break end else if not(j~=2)then h=ca else dt=(((dt+63)))end end end else local h;local j=0 while true do j=(j+1)if(j>3 or j==3)then if(j<3 or j==3)then h=cb else if j>4 then break else if not dv[h]then local p=0 while true do p=(p+1)if p<2 then dv[h]=dn;else break end end end end end else if(j>1)then du=(du+dn)else dt=(dt*67)end end end end;else if i>4 then break else du=((du+dn));end end end end end else break end else if(e>1)then du=(du+1)else dt=((dt-53))end end end end;end else if f>1 then b=(du+dt)else dt=(((dt*_do)))end end end end end else if(a<3 or a==3)then dt=(dt-669)else if a>4 then break else if du>31 then local a=0 while true do a=a+1 if not(a~=2)then break else break;end end end;end end end end end;end else if not(dw~=53)then du=dr else dv={}end end else if(dw<50 or dw==50)then if(dw>49)then dr=0 else dq=30 end else if dw>51 then dt=dq else ds=587 end end end end else if(dw>41 or dw==41)then if(dw==44 or dw<44)then if(dw<42 or dw==42)then if not(dw~=42)then dj=531 else di=159 end else if not(dw~=43)then dk=8612 else dl=70 end end else if(dw<46 or dw==46)then if not(dw~=45)then dm=17224 else dn=1 end else if(dw>47)then dp=940 else _do=15 end end end else if(dw==36 or dw<36)then if(dw==34 or dw<34)then if not(dw~=33)then da=4 else db=1880 end else if dw>35 then dd=43 else dc=16434 end end else if(dw<38 or dw==38)then if dw>37 then df=18 else de=26311 end else if dw<40 then dg=8217 else dh=318 end end end end end end end end local function a(a,b)local e,f,h=0 while true do if e<=2 then if e<=0 then f=nil else if e~=2 then if not(c(l)~=d)then f=l;else f=l(cd);end else h={}end end else if e<=3 then for c,d in o,f do if not(d==a)then h[c]=d else h[c]=b;end end else if e==4 then if bc then return bc(cd,h)else l=h;return l;end else break end end end e=e+1 end end;local function a(...)local b;local c;local d;local e;local f;local h;local i local j=n(cd,...);f=n(3,...);h=n(2,...);d=j[bg];b=j[650];e=j[bf];c=j[208];i=j[203];local c=j[126];local c=v[ba(s,i)];return function(...)local c,i,j,n,o,p,q,s=bl,1,-1,{},{...},(n("\35",...)-1),{},{};for u=0,p,1 do if(u>=b)then n[u-b]=o[u+1];else s[u]=o[u+1];end;end;local u,v,y,z=(p-b+1),e[i],nil,{};y=v[516];while true do if(y<84 or y==84)then if(y<41 or y==41)then if 20>=y then if(9==y or 9>y)then if y<=4 then if 1>=y then if y>0 then s[v[584]]=x(s[v[223]],s[v[108]]);else if not s[v[584]]then i=(i+1);else i=v[223];end;end;elseif(2>=y)then local z=v[584];local ba=s[z]local bb=s[(z+2)];if((bb>0))then if(ba>s[z+1])then i=v[223];else s[z+3]=ba;end elseif(ba<s[z+1])then i=v[223];else s[z+3]=ba;end elseif(y<4)then s[v[584]][s[v[223]]]=s[v[108]];else local z=v[584]local ba,bb=c(s[z](r(s,z+1,v[223])))j=(bb+z-1)local bb=0;for bc=z,j do bb=bb+1;s[bc]=ba[bb];end;end;elseif y<=6 then if 6>y then s[v[584]][s[v[223]]]=s[v[108]];else local z=v[584];local ba=s[v[223]];s[z+1]=ba;s[z]=ba[v[108]];end;elseif(y<7 or y==7)then for z=v[584],v[223],1 do s[z]=nil;end;elseif 9~=y then if((s[v[584]]~=s[v[108]]))then i=(i+1);else i=v[223];end;else if((s[v[584]]==s[v[108]]or s[v[584]]<s[v[108]]))then i=(i+1);else i=v[223];end;end;elseif(y==14 or y<14)then if(y<11 or y==11)then if(y~=11)then local z;local ba;s={};for bb=0,p,1 do if(bb<b)then s[bb]=o[(bb+1)];else break;end;end;i=(i+1);v=e[i];ba=v[584];z=v[223];for bb=ba,z do s[bb]=n[bb-ba];end;i=(i+1);v=e[i];do return s[v[584]]end i=i+1;v=e[i];do return end;i=i+1;v=e[i];s[v[584]]=h[v[223]];else f[v[223]]=s[v[584]];end;elseif(12>=y)then local z;s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];z=v[584]s[z]=s[z](r(s,z+1,v[223]));elseif(y~=14)then local z=d[v[223]];local ba={};local bb={};for bc=1,v[108]do i=i+1;local bd=e[i];if bd[516]==157 then bb[bc-1]={s,bd[223],nil};else bb[(bc-1)]={h,bd[223],nil};end;q[(#q+1)]=bb;end;m(ba,{['\95\95\105\110\100\101\120']=function(bc,bc)local bc=bb[bc];return bc[1][bc[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(bc,bc,bd)local bb=bb[bc]bb[1][bb[2]]=bd;end;});s[v[584]]=a(z,ba,f);else s[v[584]]=s[v[223]]-s[v[108]];end;elseif(17>y or 17==y)then if(y<=15)then local z=v[584]s[z]=s[z](r(s,z+1,v[223]));elseif(17>y)then local z=v[584]s[z]=s[z]();else local z;local ba;s={};for bb=0,p,1 do if(bb<b)then s[bb]=o[bb+1];else break;end;end;i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=(s[v[223]]+v[108]);i=i+1;v=e[i];h[v[223]]=s[v[584]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];ba=v[584]z=s[ba]z();end;elseif(18==y or 18>y)then local z;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];z=v[584];do return s[z](r(s,(z+1),v[223]))end;i=i+1;v=e[i];z=v[584];do return r(s,z,j)end;i=(i+1);v=e[i];i=v[223];elseif(19<y)then local z=v[584];local ba=v[223];for bb=z,ba do s[bb]=n[bb-z];end;else s[v[584]]=(s[v[223]]+s[v[108]]);end;elseif(30==y or 30>y)then if(25>=y)then if 22>=y then if(y~=22)then local z;s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];z=v[584]s[z]=s[z](r(s,z+1,v[223]));else local z;s[v[584]]={};i=(i+1);v=e[i];s[v[584]][v[223]]=s[v[108]];i=(i+1);v=e[i];s[v[584]][v[223]]=s[v[108]];i=i+1;v=e[i];s[v[584]][v[223]]=s[v[108]];i=i+1;v=e[i];s[v[584]][v[223]]=s[v[108]];i=(i+1);v=e[i];s[v[584]][v[223]]=s[v[108]];i=(i+1);v=e[i];s[v[584]][v[223]]=s[v[108]];i=(i+1);v=e[i];s[v[584]]={};i=(i+1);v=e[i];s[v[584]][v[223]]=s[v[108]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];z=v[584]s[z](r(s,(z+1),v[223]))end;elseif(y<=23)then local z=v[584]local ba={s[z](s[z+1])};local bb=0;for bc=z,v[108]do bb=bb+1;s[bc]=ba[bb];end elseif 24<y then s[v[584]]=true;else local z;s={};for ba=0,p,1 do if ba<b then s[ba]=o[(ba+1)];else break;end;end;i=i+1;v=e[i];s[v[584]]=false;i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];for ba=v[584],v[223],1 do s[ba]=nil;end;i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];z=v[584]s[z]=s[z](s[z+1]);end;elseif(27==y or 27>y)then if y>26 then local z;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];z=v[584]s[z]=s[z](s[z+1]);else local z=v[584]s[z]=s[z](s[z+1]);end;elseif(28>y or 28==y)then if((v[584]<=s[v[108]]))then i=(i+1);else i=v[223];end;elseif(30>y)then s[v[584]]=a(d[v[223]],nil,f);else s[v[584]]=s[v[223]]-s[v[108]];end;elseif(y<35 or y==35)then if y<=32 then if(31==y)then s[v[584]]=s[v[223]]*v[108];else local z;s={};for ba=0,p,1 do if(ba<b)then s[ba]=o[(ba+1)];else break;end;end;i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];z=v[584]s[z](s[(z+1)])end;elseif(y<33 or y==33)then local z=v[223];local ba=v[108];local z=k(s,g,z,ba);s[v[584]]=z;elseif(y==34)then s[v[584]]=a(d[v[223]],nil,f);else s[v[584]]=false;end;elseif y<=38 then if y<=36 then s[v[584]]=s[v[223]][v[108]];elseif 37<y then do return end;else s[v[584]]=v[223];end;elseif y<=39 then s[v[584]]=(s[v[223]]+v[108]);elseif(y>40)then if(s[v[584]]<s[v[108]])then i=i+1;else i=v[223];end;else s[v[584]]=h[v[223]];end;elseif y<=62 then if(51==y or 51>y)then if(y<=46)then if(y<=43)then if y>42 then if((v[584]<=s[v[108]]))then i=i+1;else i=v[223];end;else do return s[v[584]]end end;elseif(y<=44)then local z=v[223];local ba=v[108];local g=k(s,g,z,ba);s[v[584]]=g;elseif not(y==46)then s[v[584]]=x(v[223],v[108]);else s[v[584]]=true;end;elseif(48>=y)then if(y>47)then s={};for g=0,p,1 do if g<b then s[g]=o[g+1];else break;end;end;i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];else s[v[584]]=s[v[223]]%v[108];end;elseif(y<49 or y==49)then local g;s={};for k=0,p,1 do if(k<b)then s[k]=o[k+1];else break;end;end;i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=i+1;v=e[i];g=v[584]s[g](s[(g+1)])elseif 50==y then s[v[584]]=s[v[223]];else end;elseif(y<56 or y==56)then if(53>=y)then if not(53==y)then s[v[584]]=h[v[223]];else s[v[584]]=s[v[223]]+s[v[108]];end;elseif(54>y or 54==y)then elseif y<56 then s[v[584]]=w(v[223],v[108]);else s[v[584]]=s[v[223]]/v[108];i=i+1;v=e[i];s[v[584]]=s[v[223]]-s[v[108]];i=i+1;v=e[i];s[v[584]]=(s[v[223]]/v[108]);i=(i+1);v=e[i];s[v[584]]=s[v[223]]*v[108];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];i=v[223];end;elseif(59>=y)then if(y<57 or y==57)then local d=d[v[223]];local g={};local k={};for z=1,v[108]do i=i+1;local ba=e[i];if not(ba[516]~=157)then k[z-1]={s,ba[223],nil};else k[z-1]={h,ba[223],nil,nil,nil};end;q[(#q+1)]=k;end;m(g,{['\95\95\105\110\100\101\120']=function(m,m)local m=k[m];return m[1][m[2]];end,['\95\95\110\101\119\105\110\100\101\120']=function(m,m,z)local k=k[m]k[1][k[2]]=z;end;});s[v[584]]=a(d,g,f);elseif(y~=59)then local d=v[584];local g=s[d];for k=d+1,v[223]do t(g,s[k])end;else for d=v[584],v[223],1 do s[d]=nil;end;end;elseif y<=60 then local d=v[584];local g=s[d+2];local k=s[d]+g;s[d]=k;if((g>0))then if((k<=s[d+1]))then i=v[223];s[(d+3)]=k;end elseif((k==s[d+1]or k>s[d+1]))then i=v[223];s[d+3]=k;end elseif y==61 then s={};for d=0,p,1 do if d<b then s[d]=o[d+1];else break;end;end;else local d=v[584];local g=v[108];local k=d+2;local m={s[d](s[d+1],s[k])};for z=1,g do s[(k+z)]=m[z];end local d=s[(d+3)];if d then s[k]=d;i=v[223];else i=i+1 end;end;elseif(y==73 or y<73)then if(67==y or 67>y)then if(y<=64)then if(y==63)then local d;local g;s={};for k=0,p,1 do if(k<b)then s[k]=o[k+1];else break;end;end;i=(i+1);v=e[i];g=v[584];j=(g+u-1);for k=g,j do d=n[k-g];s[k]=d;end;i=i+1;v=e[i];g=v[584];do return r(s,g,j)end;i=(i+1);v=e[i];do return end;i=i+1;v=e[i];s[v[584]]=x(s[v[223]],s[v[108]]);else local d=v[584]s[d](s[(d+1)])end;elseif(65>=y)then s[v[584]]=s[v[223]]+v[108];elseif not(y~=66)then local d=v[584];local g=s[d]local k=s[(d+2)];if((k>0))then if(g>s[d+1])then i=v[223];else s[d+3]=g;end elseif((g<s[d+1]))then i=v[223];else s[(d+3)]=g;end else end;elseif(70>y or 70==y)then if(68==y or 68>y)then s[v[584]]={r({},1,v[223])};elseif y>69 then if(s[v[584]]<=s[v[108]])then i=(i+1);else i=v[223];end;else local d=v[584]s[d](r(s,d+1,j))end;elseif(71>y or 71==y)then local d;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=i+1;v=e[i];d=v[584]s[d]=s[d](r(s,d+1,v[223]));elseif 73>y then s={};for d=0,p,1 do if(d<b)then s[d]=o[(d+1)];else break;end;end;i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];for d=v[584],v[223],1 do s[d]=nil;end;i=(i+1);v=e[i];i=v[223];else do return end;end;elseif(78>=y)then if 75>=y then if(y<75)then if(not(s[v[584]]==v[108]))then i=v[223];else i=(i+1);end;else local d=(s[v[584]]+v[108]);s[v[584]]=d;if((s[v[584]+1]==d or s[v[584]+1]>d))then i=v[223];end;end;elseif(y<76 or y==76)then if(s[v[584]]~=s[v[108]])then i=(i+1);else i=v[223];end;elseif(y<78)then if(not(s[v[584]]==v[108]))then i=v[223];else i=i+1;end;else if(s[v[584]]<=v[108])then i=i+1;else i=v[223];end;end;elseif(81>y or 81==y)then if(y<79 or y==79)then local d=v[584];j=d+u-1;for g=d,j do local d=n[g-d];s[g]=d;end;elseif not(80~=y)then s[v[584]]=(s[v[223]]*v[108]);else local d=v[584];do return r(s,d,j)end;end;elseif 82>=y then local d=v[584]s[d]=s[d](s[d+1]);elseif y<84 then if((s[v[584]]<=v[108]))then i=i+1;else i=v[223];end;else local d=v[584]s[d](r(s,d+1,j))end;elseif(y<126 or y==126)then if 105>=y then if(94>=y)then if 89>=y then if(86>=y)then if y==85 then s[v[584]]=#s[v[223]];else s[v[584]]=s[v[223]][s[v[108]]];end;elseif(y==87 or y<87)then if not s[v[584]]then i=i+1;else i=v[223];end;elseif(y<89)then local d=v[584];local g=s[v[223]];s[(d+1)]=g;s[d]=g[v[108]];else local d;local g;local k;s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]={};i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];k=v[584];g=s[k]d=s[k+2];if(d>0)then if(g>s[(k+1)])then i=v[223];else s[(k+3)]=g;end elseif((g<s[k+1]))then i=v[223];else s[k+3]=g;end end;elseif(91>y or 91==y)then if(y>90)then local d;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];d=v[584]s[d]=s[d](r(s,d+1,v[223]));else local d=v[584]s[d]=s[d](r(s,d+1,v[223]));end;elseif(92>=y)then s[v[584]]=s[v[223]]/v[108];elseif y==93 then s[v[584]]={};else local d;s[v[584]]=s[v[223]]%s[v[108]];i=(i+1);v=e[i];s[v[584]]=(s[v[223]]+v[108]);i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];d=v[584]s[d]=s[d](r(s,d+1,v[223]));end;elseif 99>=y then if(y==96 or y<96)then if(y<96)then h[v[223]]=s[v[584]];else local d=v[584]s[d](s[d+1])end;elseif(y<=97)then if(not(s[v[584]]==s[v[108]]))then i=v[223];else i=(i+1);end;elseif(99~=y)then s[v[584]]=s[v[223]][v[108]];else local d;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];d=v[584]s[d]=s[d](r(s,d+1,v[223]));end;elseif y<=102 then if(100>y or 100==y)then local d=v[584]s[d](r(s,(d+1),v[223]))elseif 102~=y then do return s[v[584]]end else h[v[223]]=s[v[584]];end;elseif y<=103 then s[v[584]]=(s[v[223]]%v[108]);elseif 105>y then f[v[223]]=s[v[584]];else if s[v[584]]then i=(i+1);else i=v[223];end;end;elseif(115==y or 115>y)then if y<=110 then if(y==107 or y<107)then if y<107 then local d=v[584]local c,g=c(s[d](r(s,d+1,v[223])))j=((g+d)-1)local g=0;for k=d,j do g=g+1;s[k]=c[g];end;else s={};for c=0,p,1 do if c<b then s[c]=o[c+1];else break;end;end;i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]]+v[108];i=i+1;v=e[i];h[v[223]]=s[v[584]];i=(i+1);v=e[i];do return end;i=(i+1);v=e[i];do return end;i=i+1;v=e[i];s[v[584]]=x(v[223],v[108]);end;elseif y<=108 then local c=v[584];local d=s[c];for g=c+1,j do t(d,s[g])end;elseif not(110==y)then if((v[584]<s[v[108]]))then i=(i+1);else i=v[223];end;else local c=v[584];do return r(s,c,j)end;end;elseif(112==y or 112>y)then if not(112==y)then s[v[584]]={r({},1,v[223])};else s[v[584]]=(s[v[223]]-v[108]);end;elseif(113>=y)then s[v[584]]=#s[v[223]];elseif not(y==115)then local c=v[584];local d=s[c];for g=(c+1),v[223]do t(d,s[g])end;else s[v[584]]=x(s[v[223]],s[v[108]]);end;elseif(y==120 or y<120)then if(117==y or 117>y)then if y==116 then local c=v[584];do return s[c](r(s,c+1,v[223]))end;else local c;local d;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];d=v[584];c=s[d];for g=d+1,v[223]do t(c,s[g])end;end;elseif(118==y or 118>y)then local c;local d;local g;s={};for k=0,p,1 do if(k<b)then s[k]=o[k+1];else break;end;end;i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=#s[v[223]];i=(i+1);v=e[i];s[v[584]]=v[223];i=(i+1);v=e[i];g=v[584];d=s[g]c=s[g+2];if((c>0))then if(d>s[g+1])then i=v[223];else s[g+3]=d;end elseif(d<s[g+1])then i=v[223];else s[g+3]=d;end elseif y==119 then local c;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];c=v[584]s[c]=s[c](r(s,c+1,v[223]));else local c;s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];c=v[584]s[c]=s[c](r(s,c+1,v[223]));end;elseif(123==y or 123>y)then if y<=121 then if((s[v[584]]<s[v[108]]))then i=(i+1);else i=v[223];end;elseif(122<y)then i=v[223];else local c=v[584];local d=s[(c+2)];local g=s[c]+d;s[c]=g;if(d>0)then if(g<=s[c+1])then i=v[223];s[(c+3)]=g;end elseif((g>s[c+1]or g==s[c+1]))then i=v[223];s[(c+3)]=g;end end;elseif(124==y or 124>y)then local c=v[584];do return s[c](r(s,c+1,v[223]))end;elseif(125==y)then s[v[584]]=x(v[223],v[108]);else local c;s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];c=v[584]s[c]=s[c](r(s,c+1,v[223]));end;elseif(147>y or 147==y)then if(y<136 or y==136)then if(y==131 or y<131)then if(128==y or 128>y)then if y<128 then s={};for c=0,p,1 do if c<b then s[c]=o[(c+1)];else break;end;end;else s[v[584]]=-s[v[223]];end;elseif(y==129 or y<129)then local c;s={};for d=0,p,1 do if(d<b)then s[d]=o[d+1];else break;end;end;i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=(i+1);v=e[i];c=v[584]s[c](s[(c+1)])elseif not(131==y)then local c=v[584]local d={}for g=1,#q do local g=q[g]for k=1,#g do local g=g[k]local k,k=g[1],g[2]if k>=c then d[k]=s[k]g[1]=d end end end else local c=v[584]local d={}for g=1,#q do local g=q[g]for k=1,#g do local g=g[k]local k,k=g[1],g[2]if(k==c or k>c)then d[k]=s[k]g[1]=d end end end end;elseif(y<133 or y==133)then if 133>y then local c=v[584]local c=s[c]c();else local c=v[584]local c=s[c]c();end;elseif 134>=y then s[v[584]]=false;elseif(136>y)then local c=v[584]s[c](r(s,c+1,v[223]))else s[v[584]]=v[223];end;elseif(141==y or 141>y)then if(138==y or 138>y)then if y>137 then local c;local d;local g;s[v[584]]=v[223];i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];s[v[584]]=#s[v[223]];i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];g=v[584];d=s[g]c=s[g+2];if(c>0)then if(d>s[g+1])then i=v[223];else s[(g+3)]=d;end elseif((d<s[g+1]))then i=v[223];else s[g+3]=d;end else local c=v[584];j=(c+u)-1;for d=c,j do local c=n[(d-c)];s[d]=c;end;end;elseif(y==139 or y<139)then s[v[584]]=(s[v[223]]%s[v[108]]);elseif not(y~=140)then if s[v[584]]then i=i+1;else i=v[223];end;else local c=v[584];local d=s[c];for g=(c+1),j do t(d,s[g])end;end;elseif(y<=144)then if(y==142 or y<142)then s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]={};i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];if not s[v[584]]then i=i+1;else i=v[223];end;elseif(144>y)then s[v[584]]=s[v[223]][s[v[108]]];else local c=v[584]s[c]=s[c]();end;elseif 145>=y then if((v[584]<s[v[108]]))then i=(i+1);else i=v[223];end;elseif y<147 then local c;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=v[223];i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];c=v[584];do return s[c](r(s,c+1,v[223]))end;i=i+1;v=e[i];c=v[584];do return r(s,c,j)end;else local c=v[584]local d={s[c](s[c+1])};local g=0;for j=c,v[108]do g=g+1;s[j]=d[g];end end;elseif(158>=y)then if(y<152 or y==152)then if(y==149 or y<149)then if y<149 then local c;s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][s[v[108]]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];c=v[584]s[c]=s[c](r(s,c+1,v[223]));else if(s[v[584]]~=s[v[108]])then i=v[223];else i=i+1;end;end;elseif(y==150 or y<150)then local c=v[584];local d=v[223];for g=c,d do s[g]=n[(g-c)];end;elseif(152>y)then local c;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];c=v[584]s[c]=s[c](r(s,c+1,v[223]));else local c;s={};for d=0,p,1 do if(d<b)then s[d]=o[(d+1)];else break;end;end;i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=f[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]];i=i+1;v=e[i];c=v[584]s[c]=s[c](s[c+1]);end;elseif(y<155 or y==155)then if(y==153 or y<153)then s[v[584]][v[223]]=s[v[108]];elseif not(155==y)then s[v[584]]();else s[v[584]]={};end;elseif 156>=y then s[v[584]][v[223]]=s[v[108]];elseif not(y~=157)then s[v[584]]=s[v[223]];else local b=v[584];local c=v[108];local d=(b+2);local g={s[b](s[b+1],s[d])};for j=1,c do s[d+j]=g[j];end local b=s[b+3];if b then s[d]=b;i=v[223];else i=i+1 end;end;elseif(163==y or 163>y)then if(y==160 or y<160)then if(159==y)then s[v[584]]=(s[v[223]]%s[v[108]]);else local b;s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];b=v[584]s[b]=s[b](r(s,b+1,v[223]));end;elseif(y<161 or y==161)then local b;s[v[584]]=f[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=(i+1);v=e[i];s[v[584]]={};i=i+1;v=e[i];s[v[584]]=h[v[223]];i=(i+1);v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]][v[223]]=s[v[108]];i=(i+1);v=e[i];s[v[584]]={};i=i+1;v=e[i];s[v[584]]=h[v[223]];i=i+1;v=e[i];s[v[584]]=s[v[223]][v[108]];i=i+1;v=e[i];s[v[584]][s[v[223]]]=s[v[108]];i=i+1;v=e[i];s[v[584]][v[223]]=s[v[108]];i=i+1;v=e[i];b=v[584]s[b]=s[b](s[b+1]);elseif y==162 then s[v[584]]=s[v[223]]-v[108];else s[v[584]]=f[v[223]];end;elseif(y<166 or y==166)then if(164==y or 164>y)then s[v[584]]=f[v[223]];elseif y~=166 then s[v[584]]=w(v[223],v[108]);else s[v[584]]=-s[v[223]];end;elseif(167==y or 167>y)then elseif(169~=y)then i=v[223];else s[v[584]]=(s[v[223]]/v[108]);end;i=i+1;v=e[i];y=v[516];end;end;end;return a(bn(),{},l())();end)('23L23P21X142771727727A27A161127A23823A23122Y23427D27A23422T22U22W22P161227A22V22Z22Y22V22T27K27T27723B23427H22Y22R161027U23022T23A28827A22X27Z230161627A22Z23B27L27722O22P22U23528728927727N23B233161D27U22Z23A22Z23523427I27R28V1422Q27I22O161327A22R22P23422Q22P22Y23627S27A23522Y23822T22V28Z27E27723827Y22W22W29F29H29J27I22Q22Z28E2772A62A81827A23B29J22X29J27Z27O27Q1627927723A22P2382AM2AE23522U28O1428G23422V28I1C27M28M28427I2872811427I2AF23A27K29A22R23B2AU161527A25W2AN27A23O21U21W1621527A25V1H22J25O1Z21V25U26P21425C1A2141F26K23422222123S24C22925O21H25021N22025L21A25E26K23Z1N23M22E24621024Z21J22V21M26N2391E21A24S26W2A91425B22S21M2552BI27A25B2D927723K2DC1424G2AS27723S22A28J2BJ2772402DF2512DI1426U2392BD27A25122S21H24V161L27A24222S21B24K23721D25925T22C26821Y21Z23223S1P21021A2D324F2D62D81V2E42E62E82EA2EC26822722823F23T1221021426C2581I24J22G25G22A21024S22K28K27C2B824G22T21524L22521029P27725922S21I24U21Y21D161X27A25722T21B25822823D27126622225523I22523023N1K21B22V26826D1Z24J21Y25P22021O24S21V24X25E27123626Q21M25421Z2641O162B227724X22W21B24P21S218252244161J2ER2E72E92EB2ED22H22323H23P1021Q22X25G26R21C24O22825S2GZ27A22J22A21T22E22F2252232222AW22W22Z23722P28D29A22W23522T2352D322J21T2222DL2DN1428N2BM22N21Z22H2DF132BM23O24726025C21X2BM27A26S21N2D323728B27K2IK21Z2D322O23522X2AR29G27722J22J29D22P23G161E2HV22J22Y22P2372JI2JK2JE142JG29T23123A28N2H02JV2JH2JX2JZ2FN2K22312342I82JL2JN2342B428522R2IZ27721L2BQ23W27A21X22W22T23B2142102K821022T23823822P28C23B2102342J52L123022P2L429422P2L022Z22Q2KU22R27W23H21028B2362L622U22P22Q22T2A129M2102AH2KR22T22Y22O2L42L62AF22Y23B27Z23127W2L027V2352JZ2B62L729522R2302LR2LG2LL2M928C2L62JI23B22V27H22U2AK2LG2JJ2MM23522V2312M228621625M2IK21G1425A21X21323222A21R26R1324921Q1M27B2IK2ND142BJ2FE142NG28K2BM21027728K2NJ29A16212142KH1M23U1428929X142NO2NZ2O42772B82NG27E2JU2NG27T2K12NG29G2O12NG2B22912772NG2912BM2NG2JM2JM2OK2771F142OT2OR142AD2NJ27A1927B2P22O31A142OJ2OX27A2812P51I2NH2PD1023J27A2PC2NI2NU2P52IK1K24D2P62P82772P52O62P12P528K2BJ2DN2492P22Q02NT141B2NV27B22H141K2Q02P92P12E32892BJ2AN2PZ2772Q92QA2QH142JU2P22QL2Q42QA22Z2NK142PS2P21M24G141N142P12O622B2QZ142132PD2BJ2PF27A2R72BJ21022U2R52P729A2QX141G2QU2P92R42RL1Z2R82NZ2PG2772RQ2RD2RF2RL2P72QV2RE141H2PP2772RI2QY2PC2QQ2O22RF2HB2JU2B82S11S142K12QJ14122R42SG2162RR2RA2772SO2RW142SG2K12E32OK2QY1T2QT277210235141U2QM27A2R02T22772EQ2JU2RL2TA141O2T72772S32TF1P2TI2S227A2NG1Q142PC2TF1R2S4142HB2TF2NO2JU2SG2QW2O227A2IK142QS2R02T62QA2AD2RL2SX2U32TO2T02OW2PC2UA2T12HB2EQ2P22RL2TY142OZ21I2TO2UE27B1M2FW2PC2TH2OK2FW2HB2UK2UX2SU142UN27722M2TO2U22UR27B2UT2PC2UV2TP2V2142TM2V12V62V42FW2T02V8142VA2PC2UH2VD27A2UT2HB2VH2VM2SG2VL2NK2VP2T52VI2W62VR2VA2V327C2VE2V62W02W4142T02TR2VM2T62VO2V72WN27A2VA2SG2V82US2WH142WF2V52T62VV2V52EQ2WM2TH2W92WU2V02VW2772UT2T62WW2FW2EQ2W32V52TH2WM2TM2X42T62W32WT2EQ2XB2TG2WU2VM2TM2WM2TR2X42EQ2WJ2X7142UT2TH2XO2TM2TV2VM2TR2WM2TV2X42TH2Y42XY2UT2TM2XO2TR2O32WG2TV2WM2NO2X42TM2YH2WT2TR2XO2TV2YB2V52NO2WM2112WO2V9142TR2YX2NP2WD2TV2XO2NO2YH2V52YX2WM2NU2X42TV2NU2Z32VX2U42XO2YX2WZ2FW2NU2WM2R72X42NO2R72ZG2X8142YX2XO2NU2Z22WG2R72WM1W2YY2VS2ZV1431032ZT2XZ142NU2XO2R72ZZ2V531032WM2XC27B2VA2NU2FW31092UT2R72XO31032ZL142FW2WM1Y31042VA2R7310X310O31072WV2QA2V52W52VM310X2WM2RQ2X431032RQ31122FW2XO310X2XE2FW2RQ2WM218310Y310U14311N3112310X2XO2RQ310T311N2WM219311O310X311Z31122RQ2XO311N2ZF2WG311Z2WM21A311O2RQ312B3112311N2XO311Z2ZS2WG312B2WM21B311O311N312N3112311Z2XO312B312J2V5312N2WM214311O311Z312Z3112312B2XO312N310T312Z2WM2BS2X4312B2BS3112312N2XO312Z31272V52BS2WM2SO2X4312N2SO3112312Z2XO2BS31082WG2SO2WM217311O312Z313Y31122BS2XO2SO312V2FW313Y2WM2N12X42BS2N131122SO2XO313Y3146142N12WM21H311O2SO314M3112313Y2XO2N1310T314M2WM2UT2X4313Y2UT31122N12XO314M310T2X92W721J311O2N131583112314M2XO2UT310N2WG31582WM21C311O314M315K31122UT2XO315831112WG315K2WM21D311O2UT315W311231582XO315K311E2WG315W2WM21E311O315831683112315K2XO315W311R2WG31682WM21F311O315K316K3112315W2XO316831222WG316K2WM21O311O315W316W311231682XO316K312E2WG316W2WM21P311O316831783112316K2XO316W312Q2WG31782WM21Q311O316K317K3112316W2XO317831322WG317K2WM21R311O316W317W311231782XO317K313D2WG317W2WM21K310423214317831882QA23T2R52NE27B23M2RK2QA2SY2TO313P2SA2TS2TN31412ZU2HB2TK2Q02T62PC2NJ2NJ1Y221318Q26Z2PD2N12SQ1431942DN2T02RL2U62TP2S72R12RN318Q11152PX2RS27A319J2BJ2RJ2PC314P2SK231318Q1F319K27A3197319W2BJ122P12PC27E2R92772QL2AD2QK27A2P72QO2P0318L2QL2T92QW230318Q2NJ2S12PC2SI319H2VG319X2R92RT2WV319X31AM2SH27A2UE12319U2PC23A319X2S531AT31B331A1319U2RL21Z31B4319M27731BB2ST31AN31AY319E2TX2X72V52SG31502YZ2PC2VC319031922PC1W319X3158319731BV319P319F2NJ31B0318Q21331BC319731C531C031AK2W72HB315N2O222K31BK2UQ31AH2V52T0315Z277318A2HB2VV2P2228318Q318H31B527A1T319X31C7319X2V52PC316B27723931BK2NG2QW2FW2SG31D21028K2PC21Y31AV2RF2T62SW27B22A2WN31D6310T2TH31BO31052T62X631BS2W621C31BW31BD1431DV2ST31DH31BI2NP2ZC2SK2W731DO310K2W631DS27A31912W621X31DW319731EE31C92T631C2319U2T621M31C631AT31EN31EI31BL310J31CD21031CF2EQ2V831CI2FW2TM31CL14318A2XD318L31CR2UK2772IK319731DZ31DX31EQ31DX31EH31FF31CX31882PC21831CX31B631CZ2UY1431D21431D42HB31D62UW31D831FQ319Y31DC1431B7318P31E12QI31BJ2EQ2OZ2WL2X731AL31DG2W6277316N1431EC2T622K319X316W319731GJ31ER31EK2W622B31EO27A31GR31GO2W72EQ31EU31EW2YY31EZ2VK1431F231F431H22QA31F72P231FA31AT22131FM31GT31DF2W631AO27A31DK2EQ31DM27B31G9318Z27A2S131G931GE31EB31922T622O31GK31DX31HW31E031AX31G531E32WN2QN31HN2WC2T231GC2UK31GF31GH31FS31HX319723931CZ2QY31EJ2P931EL1422Y31GS27731IN31GV2VM31GX31HP31GZ31EY2W731F127B31H52W331CQ31GD2U5319Y31AT31HZ31DX31IQ31DX31IG31AS27A31JB2NZ31FJ1421V31HF2PC2JU317B319T318Q23Z31IO1431JP319P31FP31FR31FT2T131D72V631DA31G031JS2NK31II2Q32QB2WN2B22QF31A727A2QN27B2QL31FV31KD31CV318L2472W62NJ2V831C32T623X31JQ31KP31C92TH2NJ2V52TM31GY31H22W331H12TV31H431H22YB31J22X631F931J527A23P31HD27723W31B423Q2XQ2QA1031JG23H31FO318K2IK31A22TO2912NI31KA2772TE2Q02QL318V27B31LO2PC2JM319L1431AG318L2Q72UQ2QA2Q72VC31M831LG2Q12ZN2OU27B2PC2VR31E531I22EQ317N31J32QJ2EQ317Z31MN2TB14318D31MR2WN21L27A2UK31MO1421M31MY27A31N021N31N32P231L62PD31I22TH31N62772V42772TM31KF2Z031BK318L142TV31N92P22Y331J4318M31NH2WD2TR31MA2Z42XP2QA22O31L331NR31K331H231FV2UT2TR31CP31NX31NO28P31O131L72PT31H22AD2BJ2OJ2QL31KC27A31M431AA2772K131AD2OW31LV27A31M731KG31MS31ON31MJ31OS2PR31AF27A31LX31NU31H62Q023L31NJ2IK2U631LF31LU2Q01Y22227A25C31AR31DX31PH31C92RL31GP2RL25J31JQ31PP31PL2X72S12S331AH21W31IU2TO318V31H12HB31L22S331OU27A31CR31PC31NA31DX25931LB1431PR2NK31AJ31LR31OE2RL2P131K931M32T831P131OO31QO318K2QA2UT2S331Q827A31P72S331P927B22531O22P222J1423S23G2382631F1S27223S25S310X2JM2RL31CL31F82QV2IK16318S2242L622O2312LW2K821121031RO2RE23H29T23B2AF2LW2L22L629M2MM31RY2K92LW27V2M027N27J23B2162B8142JM24025921826S25B21Q25V25923331GF31QH318L31ST31NL319D2P225923G1T26E26F1F24M24N25K2S32TH319U23D31N4318L318Z29A2JP23G27K2QV22E2312B021023B23827W29I22U22Z22U2S9142241426326623N22S24G21Q21L1K1Q21E2NL31Q927A2KH31LH2O52P229A31AX31A122T31E531K82PE31AT31UL1422P1427E2OZ2P931N228K31A52VD319731UX2T72NQ318L31UQ31V22QA31R131OD2Q02QS2201422R27A316Z27731FU1423F27A31CD2OZ2NJ31UC2J116316G21Z22Z22X27W2L123A2LG22T22R22T27I2KR2KT23123B22Y1Z23421029429V29J31TN2MU31S522P31OP2331423V1823T26B25R21E22O1B25P31FR31NL2YH31H931NL31WY31V831SW2QA314D23325J26421A26P21323526T24A2UT27922I2AX27A236318L29A31VO21N31UC2782QA2BQ2O127G27I234315S31VI318B25824W2201521E22B2132442NC2FW2PW2W72792NJ1A2452VD319C31L831LT2PD31YC31YE2SP31AT31YF210313Y31UG2Q52T2313Y31V031YR2SK31VB28931OG31UR31DX31YZ31H32Q52BM2OZ2P531SG31UE210316W27T2B831UC29G2IK2O12O329G2JU2NN2Z331VN2Q02BJ31OK2Q031Z82S527B27931A1316S2HB319L319731ZY2ZU31X027A31YJ28K2NU31HA27A32072O231YP2P22BM320531H231A631972TM2DN315W27931Z527B2P52O131ZT2T224T31Z02O12NN2TV31V531YV310A277320Q31YG31BK2DN31UQ31YA318L31V731UA27B312P2TW23E27B320131CR27731UQ31092K12HU28W2KE2B62DS2BG2AV29A2B028C31XN320Z1426C22Z21W31XL31VM22627A2252LC23H2952KU2AP31TN22P22P2M92L231W52LR2L92M129I2KR3228235322A2L627G31TT2MP31VW23H322F22Z2102JA2JC21021F21F22Q2352ML27Z29332191424C1422O26F24925C1N21E24T23M24431GF321W2T12QE2Q0321231UD31HO31HI31Z4319Y31IK2Q52PL3213323Z311Q321X2UW2QY323P2ZH323R31HM2O4323T27731DK320M323W27A32162XY2Q6324327B22L2O431SX2U42O42NS323Q321A2TF27E320V31ZR31NL2OE31UE2OH31Z02OW2912B828V29G2TR2DN2UT2OT3248310A2AD2OQ318W31MF324B31Z027T325F2OV321131E5325M325F31LI2T72SG325931V1311523Y31AX2OA27732542Q0325F2Q02NG2OT32553260318B2PD210238319G31A931OY1431XF2P12R231Q92O3326I2P92Q02P531OP2Q02Q431UT2P22Q931YQ2P22WF2U3326E2QA2R032702Q02Q931AH2OZ31DK2Q92B82SJ2UU31UE31152TN3271319G31NL31QJ31WY2E331LU327731142B82UV2VA2Q42UE327N2Q42B831TV312Z2B22QV2S9325R29131032DN311N31AC2QW2QY31M12WD325M2QA2T62JM325I31DK2912P7325F2SL2PP21T31YL27A328N32852TW3264328931UA325A31WY328E31GA27B27E291325F31OP31UQ2B2326T2773219324O1424J31Z3326E31MM2WN31O0312J322431XO27A2K1321W322229A23431RY27R2O127N27P29927A31TG2802AE2B52862K62BA2I827K318S21Z2LU210322N21022W2312332LY2KD238322U322W326B28531W931S321031SA2832LU23423B328N27A31VJ23I23121B21125221E2591Y2383168311N329A27723X324I31J2319D2U62Q732B91432BB329727A318F32BE2W731Y831JD2Q5324O2V52892NR31V22RV31O327T2IZ31DK31ZF319N324927T324B31EC27T2YX320H31AT32C932BY3252324C2T731ZG27B29G2B2326Q31CU277325831O32OT2IZ2UT325E318L2T62OT32C631922OT32CO27T319732CO32422OT324O2S12OT325M2QN311N2OY318L2UT2P1326327B31O02OT326J31LN31N227T31YF28K319731YF3197310X328R27T32D62RF31ZC31KB321B325V2QA31DK31UO32CE323C31UK31O2325R28K32D52SK2P12NJ31QH31CD321W31CD324O31LO31ZV2RR31DY31UB31152FW324631D331Z032BS2FW32C531FZ2O421Y2PD2RJ2B232C02PP2IK31I531AX32CX31AX317832CA27A32FA2ZU3296318L328H31Q92QN22S32F732E831AT27631C932F231DJ32F432DZ31N332FF2ZT31EC2B232FO31E531EG31NA2UT32FQ32E232FS27732FJ32FL31V8325R2892N12DN329932DD1425D23N25M24M2722151625Q22932CQ318B23423923E23X21D21K23A25S311N2NJ325F321M142KD2832KF329N2Q031VP29A29C2LV2AW31XS27J162YB31S32AF322P31TN31VT2MJ2M02LU2L632AQ31SC32AT2DS2AP2382IT2IV2IX2IR162X622522X31WA29R22Y2M929531W92LB2KS28Q2KP2LH22P22W23831F231VJ1S22G23023I32321G1K26821F2RJ31M22ZU32BK31NE2PD324B2V5320Y3242323N31FS323V326432EQ31YV31DB2VD32GD277311N32DV2QA21021V31E532672P231ZQ2P232CL2Q032CK32C32P22OC31I731JN27T313Y320827732JZ32CD2OG2FW29G2SE31CF31ZJ32FT2WG29131OP318A29G328731Q6326F31Q92RJ27T32K42T72P731EV2T72JU2OA2FW32KC31IZ32KN31F632KI32K0311431C932KL323X27T2SS321332L532KK32CE2V532K631PY32K932G72W732KU27A32KE328S27B31CR31Z82NF2QY32L22VM32KF32LC2TN32KS2PP32KD32KW31H732KY321332D332GF2Q032E932G6318J32IZ31UP2VD32BK32M22Q031R431VB31PF29Y31ZU31JX27723C31R2325F32H92P232HB27M329R2K632H7321P31XR32AM32HI27M2L532HL2MI32HN2AH2KS32HQ2JP32AP2M432HU2IM27A32HX32HZ2IW21X32I22JU29I29K29M23631DP31XI27325H131L1S21R1X21I23V31U831L731SX32M731ZM327E2Q52NR31L732K22RJ27E2IZ32JG31WY31DK32DY320R32J031US32JW31EC27E32L5289319732L53242325C32CF324V324F2SK31UJ2SR2PD27E32OM32F02QY32OR2VM32OD31CE32JL32KA2V532JS32LH32E732LY321232LN320U2W727T32KO31CF32P332LU32P831CM32PA2Q031CR32PC32132Q931C932P131JN27E2BS32KZ32PX31O332PU2V532P332KP32PJ2W732PL31F332PN31J232PQ318M32Q132EV2TW32Q431OY32PK31I132PM32JV32PB31WX32CM320G329831R2319Y318831A131NA32MB2P231D42TH22G27A31TV2HB21E27223Q26X24M1O27121W228192U631RL2P722231TL31RP2JB23831UG31VJ23026H2441W25K31U42711X317W32QW2WD25V22M22322121S1C1C24R24F31382XP31GF22C31SU27C31TJ31TL2MD31TO31TQ28R31TT32RM31JR26W21623Q1221E2242F6317K32RX2AE31XW314D31NM27C2792TV329A31TE27A322Z2AR23I3209228230322H2MM2KY2342M72LY2LB2K92JP2LW22X2LG2L528C32IC2LC28327W22P21621022F2L5322Y23122P2LW2LU2LW2JR2L232IH23A32TZ32U12ME32AC2KP31W923728C32I629L32II2B62L02A732U82302JB2LU2K823H21621221021N21022628M2AQ2MD22F27N32AD22Y326323P1425N1O21D2GP21F24M25G24I329F31WV32SC31WX32BH32J431ZO31Q932BK32EE31R032QR2HV14315I31TC27A31MP142Q7325N2QA31ZN32MO2J22JU2AF2L222Z22Z23331AC2E323P23921W24024221O22D24P24631JM31WY31WW31CT31WZ32VJ31WY31QZ322532VS2772SG2TH319S32392T62RL2X632EZ2QA2O132HF32AM32222BM32NC2BN32I032NF31LU21X2832I82362MV2KS2L022T21029L22X31TS23H327B31VJ26324922Z25224N21P25G23G22J31U82QY32IX31C32BJ31Z231Z132OZ32EM32JF32BC31HP2RF320Y31AL31CF320Y2ON32JA31UG318A32DP32KX32BN32QO31ZZ31AT31Z232SV314J31TB22C25924S22621H21722325Z25R2Q42JM328N23A27A22332WS2Q227722B2L32JJ29U23422W31VY322B32AB284322V2862L1322X2AF22P31SG31N625W21V22P26T1G21P24C1926831MM32BH320331X131NL2R731D227627A2RL21S14329J1431CF2QA317S32H42HW2HY2I02I22I42I62I831XN2BQ32NH2A522Y2A72D32AB3222325M22V2M72AP27J32V422P31UC1G2BQ325M331C28Q32HD32U1321W16326E32W72AH27N329U2AL32MV31XT31UC1S2BQ32XB2AQ32ND32I129A2JJ2K831UC1O32212Q021033282P2212332B27B1W332E31EB332H32JF332J1421A2BQ29A2J427Z31UC214332L216332L21G332O32T532RK32HF2A022W31UC21H332L21I332L21J2BQ2P728429U28R29U29W28F27Z2B031UC21C332L21D332L21E332L21F332L21O332L21P332L21Q332L21R332L21K330Z2AE29J23032W923331B327A2SG25L22B2YX24M21Q22M22E26431GF31WY2NG32IX2WC32M7323N2O3324E310931ZT32BH32173109311N32ER27B2S132OL32EO2O631UJ27931QK324Q31AT335631LG32EJ2P12BM31QL2QL31NL31VL318L32EI318L334X32YF335031UE29A328L2892T032YU31KH328R32BU32JI2RF335132W131JN28925R31Q93197336331A12R431BE328O336931JT2O431SG311N32O8318L31D432PU31FW32P52S532YQ32EZ325U32G42Q024431UH32JW2S132PL2QN2402PP32972O3328I32OS27A2JM32J62OP32KA27A32EB33292OS31MF31QP2P2291325M31GB31SH2TW2RZ312N2JM32FZ2JM32G131A132921432FZ2B2337Q32CP337D32YE2AD326W32YE2P1325C32DI327H32KJ2QY2OT327032DB324T318P2AD326E326J32KP338E32042W72P531TV318A2AD2QV31J2328C336431AT3158328R3266335X31MF325M327B31P7337A338S27A317W31JC27732FZ337W32GB2U433961431QG31JN277339E32QO339E32BT326F336F324K32J7336J32PF31OY32JC289339H32G3339N336S32E42OZ3286335M22V2PP2P7323R337531WY337732LE2P23392334Z337C325M2W0337G32JW310A2JM32KG2QU337M31VC2PD337P31AT31VD337R337J33AR31AX319733AU2RJ32D832E03380335K319G338431MF32DK31BJ338933B0338C2S1338I31OR338H2PQ2RM2VM338L32KV338O32KX338R32KZ32R0339C31O0339C33AU33AW2PE3188289322431B827A248339327733C0336C289336E31Z0321W336I32E5339Q325532YQ24F31NA311N32FV2P333A232PL323R2OM31WY337233A927B328A337B337J325F31AH329L337J334W32G62P32RF33CO31QR32OT31AX23K2PD291319733D6328R33CH334Z2RF33CK27C2NU31LQ32E033CR33D033CT31P231E82B232H332E033DI332933D12TW2TT33D42B224E33D731DX33DZ32FP337Y324233D833B22JM33B433DP31O232F133BF31C32B224333C11433EG33DB339N31D432Q72P931VB29G33EJ33AV31AT33ER33EC338A33CZ33DD33A331OT31PY33D22QV2V52OT338M2PP338R32KH326Q32KZ2KL339C33ER319733E233E133BU2O42QS339C33662WG33C532E0336G2QA33C9324832Q2339R32YQ33FM324233DC32YG31AX2K131UG33A0321W32FH2P732F633CH337I32PL31MA33A032DW33EZ2772VV1231UJ2B224W33E0319733GL33EK337033DE32QJ2NS33DH2XY31E1324B336V32QJ33GC33EX33G033D22UK33GI31AX25Q33GM31AT33H733E3328C33A03381324233E8318L31O033EA31V833EV323X2B225F33EH33HO33EK33C833G12QA1233EP1433HQ33ES27A33HY33HL27A33GD338X33D22V832KP33F22W733F532KV33AG32LY33FA321325831UM33I033II27733HA31DX33IM339A24L33CF327D33DL335Z31NY33611426N33EH33IY33C4339L33C7336H32PE32J9336L2NZ32YQ33J031O32B22W331LO33CM31QL31CD335G335231OZ327F27B31KJ33CH2P733EE1426L33EH33JS31C92JM33HC31MF33HE338B33B42JM326E32PD33K232E033AB33G033AZ32CN31PY33K933BG2WG2P133F632DJ32KX32DG32KZ26C33IK1426K31NA31LF32JO31JF2O425S33IR335W33DT324Q32JT33IW32RD32KZ33L12ZU289321W336S32ER339Z31Z0337022N33J532L92O632KI32CG32JI32LE2JU31L4325N2JU33L927T32JO31P732JH31V833HV2O433L332OX335831IH325O32E029G33JZ31AX33B432QL31UA32OA32JQ1433LR31Q932KZ319K32L133ED319U27T33L332QO33L332L833EW32C233KX32LD324P32P433MQ33F332KT31K532P932LR32LY32LM32132BI335V335M335Y31UE2ZZ31C328922Z31JQ33NA33BY27721W31JQ33NF33N3318L21023G33KY277312732C33370325N2O1323R32EW33CS32P32ZZ32DZ32D633LJ2RB324S33LN27B336S31YU33LO33BA32DX31OY313U310533FO33CY32OG33KX32PU33NX33O532VO32E033LP318L33MB32WU32YE31ZS31HP33EG32P333NO32LE32OP336T33CS32PL315G326N321L33EO33FJ319X32D131AT33NC32CD33JX33M233B22B233M532QJ2U633M833ON31E533OP319721J33LZ27T326E31C327T33P932QO33P933MM33M133O832KQ31EB32LS2JU33MU2PP33F633MY32PO32LZ32QO31FC319733PT335L337024K33NM33IS33LA33LI33LD33NX33LF33NZ33J73164323W2B833L931YU33EY32PU316G1431DK33IU320Q33L733OK33I333CA33QU32CE33NO2UT32BZ318L336S33LS31PT33O92B832DA33LH33MP2TN316S31052O933AH32OA33LQ33PK31R232OA33NJ33OT31OY33OV2T733HE31QP33QN32PL317433P232JW33LU33PS319X33LX28L33PO33E4311N33PC2QA33CG33R431OB33M633PH32Q927B33OO32FM27U33SA33PQ33MH2U733NB33SP33PX33GE33MQ317G32KP33MT32LF33MW32PM33Q631J233N032QO31J71432YX310A22Z22J1D1F21Y1B23O22Y23Z21H32I332VU31GG27B335P27C29A331531XP31UC1C334227732NI33TT326U2BQ21U31Q632TY21V2AP27Z2102202IC21022322U3234323629731VV21S32RK32XI32U821U2JY22P21Q2102212LG21U31W12IB322B2KD21033UJ3230323233UF27Y2KD23A33DW31XW25M1J25W23923921E229219244316W33QW33HU319U27732YA319731Z2316G32D631NI32KJ31L7326T32VM2TF32YL31TD32WR31XJ27B2R0328R330B2O224631UD2OW31SV32O133CS320Y325C32O031WY33TA23O31Z322Y32P933F0315W23427A33QP32WQ1632SE31TM32SH28632SJ22U32SL22Y21121K24B23A21P26F21M21F32SU32WW21G316K22C2301W24Y2161L25826Y192E32HB31N231BO327331O21631642202KY32AF2LW21Y29327W31RR2L623621G21621F32HN2M722V33UP32AC22Z22T22O32MT28632SL23A24B21422Z23W21F25S1S1N32RW32WW33TN21224323821T24K1X22F1C23U2TH2SG1Q1W1D2211K21G21V2681H319S2ZT2J9333033XT33XV32UA33XY29432I928Q21033Y333Y533Y723A33Y933UQ2I533YD33YF22R32V61422N23C24Z21S21V21F26A24Y26831VF32WO32WS31J432VL32YF340E33AH27B32VQ32WV33W533XB1424P24P25X23G23G1X22L23Q213327L2RM2XX31WU33F02NP331U27J31UC21M2BQ2K1330R2HZ2I122231UC21N31XQ324G23A29423A31UC21W332J23O341M331N2A42AZ32N832AS28N31XR31W12K52B8329Q2KX2LB31UC21X34182B333ZY2KH23O34242KB27733ZW33YE32A128U27A2302342342JD32NB22P2392352L927K2BM22923A33332Q021Y33TX31TW2KY28Q2JZ3428342X2D333XY22O23H31UC21Z342Y32W729L29N22733AC22Z25P21C25S22T21P24K25826621D31FV31SX32B92O332IX32VP33EB2QY329K32YE343T2RF32IX335P31VB2772Q4335T344632YC33603242344132YD31SG33WO33W531IM32WR33VJ332931MI33CP340H33CS32IX32CL33VW318H32J22QY28K31AC31XD338C1431KJ320Y29A31972UT31C929G3263339V33OR2W629G325I33SF33NJ33GR2K1325M33H529G32DT33HZ277345L310A33KR33I22ZU3261328D32G92XY317S2JU33G231AT345531O334572WD2B2345A2T6345C33RN32QJ33KX32PL326J345J310A2BJ337V346032G233JL324431AX32702UT345T325G33G927B345X33CW2O631UV2WU31LR3197335S31O328K33F333IQ2792S9334Q31YV327B32OE334S33SG324U33LE31I22892UE323R32QB31LY32VI33J731QV27E33OR2QJ28931AH323R334V33RD32J82TO31N332YI33SL2VD33OP2RJ32BP32YE334P2RF334R31CS27732FK320Y2U633TA2SG22524921X25B1Z1D23X26V2712B22S31X25A22B21W26P21I23F1826F33ZE14',{},40,2^16,{},"\115\116\114\105\110\103",'',string.byte,string.char,string.sub,table.concat,(math.ldexp or(function(a,b)return a*(2^b);end)),(getfenv or function()_ENV['\95\69\78\86']=_ENV;return _ENV end),setmetatable,select,next,math.floor,string.format,(unpack or table.unpack),tonumber,table.insert,string.gmatch,tostring,type,_VERSION,pcall,string.match,string.find,(debug.getinfo or debug.info),string.len,rawset,string.gsub,math.random,(table.find or function(a,b)for c,d in next,a do if d==b then return c;end;end return nil;end),rawget,_G,print,setfenv);end;
+--Settings
+local InstaOpenConsts = true
+local PanelTransparency = 0.4
+local ExecuterName = "exploit" --not needed
+local AllowEdit = false
+local SlowMode = false
+
+local MaxScroll = 100000 -- 100000
+local ScrollSpeed = 8 -- 8
+
+--Globals
+local ScriptIsDead = false
+local FuncTrack = {nil,{},nil} -- {func,{id track},typ}
+local function GServ(n)
+	return game:GetService(n)
+end
+
+local function tableLength(t)
+	local count = 0
+	for _ in pairs(t) do 
+		count = count + 1
+	end
+	return count
+end
+
+local UIS               = GServ("UserInputService")
+local ReplicateFirst    = GServ("ReplicatedFirst")
+local RService          = GServ("RunService")
+local GuiService        = GServ("GuiService")
+local Players           = GServ("Players")
+local CoreGui           = GServ("CoreGui")
+local Lplr              = Players.LocalPlayer
+local Mouse             = Lplr:GetMouse()
+
+local function DeleteItem(v)
+    if v and v.Parent then
+        v:Destroy()
+    end
+    --v.Parent = nil
+end
+
+local AllFunctions = {} -- Removed when closes
+local function CreateFrame(Pos,Size,FrameColor,FrameTransparency)
+	local NewFrame = Instance.new("Frame")
+	NewFrame.Size = Size
+	NewFrame.Position = Pos
+	NewFrame.BackgroundColor3 = FrameColor
+	NewFrame.BackgroundTransparency = FrameTransparency
+	NewFrame.BorderSizePixel = 0
+	return NewFrame
+end
+
+local function CreateScrollFrame(Pos,Size,FrameColor,FrameTransparency)
+	local BackFrame = Instance.new("Frame")
+	BackFrame.Size = Size
+	BackFrame.Position = Pos
+	BackFrame.BackgroundColor3 = FrameColor
+	BackFrame.BackgroundTransparency = FrameTransparency
+    BackFrame.ClipsDescendants = true
+	BackFrame.BorderSizePixel = 0
+
+    local ScrollFrame = Instance.new("Frame")
+	ScrollFrame.Size = UDim2.new(1,0,100,0)
+	ScrollFrame.Position = UDim2.new(0,0,0,0)
+	ScrollFrame.BackgroundColor3 = FrameColor
+	ScrollFrame.BackgroundTransparency = 1
+	ScrollFrame.BorderSizePixel = 0
+    ScrollFrame.Parent = BackFrame
+    ScrollFrame.InputChanged:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseWheel then
+            for i = 1,10 do
+                if obj.Position.Z > 0 then
+                    local newPos = math.clamp(ScrollFrame.Position.Y.Offset+ScrollSpeed,-MaxScroll,0)
+                    ScrollFrame.Position =  UDim2.new(0,0,0,newPos)
+                else
+                    local newPos = math.clamp(ScrollFrame.Position.Y.Offset-ScrollSpeed,-MaxScroll,0)
+                    ScrollFrame.Position =  UDim2.new(0,0,0,newPos)
+                end
+                task.wait()
+            end
+        end
+    end)
+
+    local Grid = Instance.new("UIGridLayout")
+    Grid.SortOrder = Enum.SortOrder.Name
+    Grid.CellSize = UDim2.new(0.9,0,0,15)
+    Grid.CellPadding = UDim2.new(0,0,0,2)
+    Grid.Parent = ScrollFrame
+
+	return ScrollFrame, Grid
+end
+
+local function CreateTextLabel(Pos,Size,BackColor,BackTransparency,TextColor)
+	local NewTBox = Instance.new("TextLabel")
+	NewTBox.Size = Size
+	NewTBox.Position = Pos
+	NewTBox.TextColor3 = TextColor
+	NewTBox.TextScaled = true
+	NewTBox.Active = false
+	NewTBox.Selectable = false
+	NewTBox.BackgroundColor3 = BackColor
+	NewTBox.BackgroundTransparency = BackTransparency
+	NewTBox.BorderSizePixel = 0
+	return NewTBox
+end
+
+local PrimeGui = Instance.new("ScreenGui")
+PrimeGui.ResetOnSpawn = false
+PrimeGui.DisplayOrder = 100
+PrimeGui.Enabled = true
+local _Empty ,InvalidCore = pcall(function()
+    PrimeGui.Parent = CoreGui
+end)
+if InvalidCore then
+	warn(" Executer does not support coregui Moved Guis into PlayerGui\n", InvalidCore)
+	CoreGui = Lplr:WaitForChild("PlayerGui")
+	PrimeGui.Parent = CoreGui
+end
+
+local function CreatePanel(Transparency,Size,Pos)
+    local MainCanvas = CreateFrame(
+        Pos,
+        Size,
+        Color3.new(0,0,0), Transparency) -- Transparency
+    MainCanvas.Parent = PrimeGui
+    local GridSize = 10
+    local TopBar = CreateFrame(
+        UDim2.new(0, 0, 0, 0),
+        UDim2.new(1, 0, 0, 20),
+        Color3.new(0,0,0), 0.8)
+    TopBar.ZIndex = 0
+    TopBar.Parent = MainCanvas
+    TopBar.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            local d = nil
+            d = RService.RenderStepped:Connect(function()
+                if ScriptIsDead == false then
+                    local mPos = UIS:GetMouseLocation()
+                    MainCanvas.Position = UDim2.new(0, math.floor(mPos.X/GridSize)*GridSize, 0, math.floor((mPos.Y-GuiService:GetGuiInset().Y)/GridSize)*GridSize)
+                    --UDim2.new(0, x2, 0, y2)
+                else
+                    d:Disconnect()
+                    if r then
+                        r:Disconnect()
+                    end
+                end
+            end)
+            local r = nil
+            r = UIS.InputEnded:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    d:Disconnect()
+                    r:Disconnect()
+                    r = nil
+                    d = nil
+                end
+            end)
+        end
+    end)
+
+    local ExitButton = CreateTextLabel(
+        UDim2.new(1, -20, 0, 0),
+        UDim2.new(0, 20, 1, 0),
+        Color3.new(0,0,0), 1,
+        Color3.new(1,1,1) --TextColor
+    )
+    ExitButton.Text = "×"
+    ExitButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseMovement then
+            ExitButton.Text = "•"
+        end
+    end)
+    ExitButton.InputEnded:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseMovement then
+            ExitButton.Text = "×"
+        end
+    end)
+    ExitButton.Parent = TopBar
+
+    return MainCanvas, TopBar, ExitButton
+end
+
+local MainCanvas, TopBar, ExitButton = CreatePanel(
+    PanelTransparency,
+    UDim2.new(0, 150, 0, 80),
+    UDim2.new(0.2, 0, 0, -GuiService:GetGuiInset().Y)
+)
+
+ExitButton.InputBegan:Connect(function(obj)
+    if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+        for _,v in pairs(AllFunctions) do
+            pcall(function()
+                v:Disconnect()
+            end)
+        end
+        DeleteItem(PrimeGui, 0)
+        ScriptIsDead = true
+    end
+end)
+
+function safeString(Item)
+	if typeof(Item) == "userdata" then
+		return "_userdata"
+    elseif typeof(Item) == "table" then
+        if getrawmetatable(Item) then
+		    return "_metatable"
+        else
+            return tostring(Item)
+        end
+    elseif typeof(Item) == "string" then
+        local str = tostring(Item)
+        str = string.gsub(str, "\n", [[\n]])
+		str = string.gsub(str, "\t", [[\t]])
+		str = string.gsub(str, "\\", [[\]])
+        str = string.gsub(str, "\0", [[\0]])
+        return str
+	else
+		return tostring(Item)
+	end
+end
+
+
+function DisplayInstance(ins, Panel, f)
+    local InsPanel, FuncTBar, ExitButton = CreatePanel(
+        PanelTransparency,
+        UDim2.new(0, 200, 0, 300),
+        Panel.Position + UDim2.new(0, 200, 0, 0)
+    )
+    ExitButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            DeleteItem(InsPanel, 0)
+        end
+    end)
+
+    local topLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0, 22),
+        UDim2.new(1, 0, 0, 20),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    topLabel.TextXAlignment = Enum.TextXAlignment.Left
+	topLabel.TextYAlignment = Enum.TextYAlignment.Center
+    topLabel.TextScaled = true
+    topLabel.Text = "  "..string.sub(safeString(ins),1,20)
+    topLabel.Parent = InsPanel
+
+    local extraLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0.05, 24),
+        UDim2.new(1, 0, 0.9, -25),
+        Color3.new(0,0,0), 1,
+        Color3.new(1,1,1) --TextColor
+    )
+    extraLabel.TextXAlignment = Enum.TextXAlignment.Left
+	extraLabel.TextYAlignment = Enum.TextYAlignment.Top
+    extraLabel.TextScaled = false
+    extraLabel.RichText = true
+    extraLabel.TextSize = 9
+    extraLabel.Text = "\n  type: "..string.sub(safeString(type(ins)),1,20)
+    extraLabel.Text = extraLabel.Text.."\n  typeof: "..safeString(typeof(ins))
+    extraLabel.Text = extraLabel.Text.."\n  raw: "..string.sub(safeString(ins),1,80)
+    if typeof(ins) == "Instance" then
+        extraLabel.Text = extraLabel.Text.."\n  class: "..safeString(ins.ClassName)
+        extraLabel.Text = extraLabel.Text.."\n  parent: "..string.sub(safeString(ins.Parent),1,20)
+    end
+    extraLabel.Parent = InsPanel
+
+    local downbutton = CreateTextLabel(
+        UDim2.new(0, 0, 1, -18),
+        UDim2.new(1, 0, 0, 18),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    downbutton.TextXAlignment = Enum.TextXAlignment.Center
+	downbutton.TextYAlignment = Enum.TextYAlignment.Center
+    downbutton.TextScaled = false
+    downbutton.RichText = true
+    downbutton.TextSize = 9
+    downbutton.Text = "get raw"
+    downbutton.Parent = InsPanel
+
+    local metaTb = getrawmetatable(ins)
+    downbutton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if tostring(typeof(metaTb)) ~= "nil" then
+                DisplayTable(metaTb, InsPanel)
+            else
+                downbutton.Text = "empty"
+            end
+        end
+    end)
+
+    return InsPanel
+end
+
+function DisplayTable(table, Panel)
+    local iL,counts = nil,0
+    if AllowEdit == true then
+        for i,v in pairs(FuncTrack[2]) do
+            if v[2] == table then
+                iL = i
+                counts = counts + 1
+            end
+        end
+        if iL and counts >= 2 then
+            FuncTrack[2][iL] = nil
+        end
+    end
+    local TabPanel, FuncTBar, ExitButton = CreatePanel(
+        PanelTransparency,
+        UDim2.new(0, 200, 0, 300),
+        Panel.Position + UDim2.new(0, 200, 0, 0)
+    )
+    ExitButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if AllowEdit == true then
+                local iL = nil
+                for i,v in pairs(FuncTrack[2]) do
+                    if v[2] == table then
+                        iL = i
+                    end
+                end
+                if iL then
+                    FuncTrack[2][iL] = nil
+                end
+            end
+            DeleteItem(TabPanel, 0)
+        end
+    end)
+
+    local topLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0, 22),
+        UDim2.new(1, 0, 0, 20),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    topLabel.TextXAlignment = Enum.TextXAlignment.Left
+	topLabel.TextYAlignment = Enum.TextYAlignment.Center
+    topLabel.TextScaled = true
+    topLabel.Text = "  "..safeString(table)
+    topLabel.Parent = TabPanel
+
+    local downbutton = CreateTextLabel(
+        UDim2.new(0, 0, 1, -18),
+        UDim2.new(1, 0, 0, 18),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    downbutton.TextXAlignment = Enum.TextXAlignment.Center
+	downbutton.TextYAlignment = Enum.TextYAlignment.Center
+    downbutton.TextScaled = false
+    downbutton.RichText = true
+    downbutton.TextSize = 9
+    downbutton.Text = "get raw"
+    downbutton.Parent = TabPanel
+
+    local metaTb = getrawmetatable(ins)
+    downbutton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if metaTb then
+                DisplayTable(metaTb, TabPanel)
+            else
+                downbutton.Text = "empty"
+            end
+        end
+    end)
+
+    local Scroller = CreateScrollFrame(
+        UDim2.new(0.1, 0, 0, 42),
+        UDim2.new(0.9, 0, 0.8, 0),
+        Color3.new(0,0,0), 1)
+    Scroller.Parent.Parent = TabPanel
+    local function ClearScroll()
+        for _,v in pairs(Scroller:GetChildren()) do
+            if v:IsA("TextLabel") then
+                DeleteItem(v, 0)
+            end
+        end
+    end
+
+    setScroller(table, Scroller, TabPanel)
+    return TabPanel
+end
+
+function DisplayFunc(func, Panel)
+    if AllowEdit == true then
+        FuncTrack[1] = func
+        FuncTrack[2] = {}
+    end
+
+    local FuncPanel, FuncTBar, ExitButton = CreatePanel(
+        PanelTransparency,
+        UDim2.new(0, 200, 0, 600),
+        Panel.Position + UDim2.new(0, 200, 0, 0)
+    )
+    ExitButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if AllowEdit == true then
+                FuncTrack[1] = nil
+                FuncTrack[2] = {}
+            end
+            DeleteItem(FuncPanel, 0)
+        end
+    end)
+
+    local topLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0, 22),
+        UDim2.new(1, 0, 0.1, 0),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    topLabel.TextXAlignment = Enum.TextXAlignment.Left
+	topLabel.TextYAlignment = Enum.TextYAlignment.Top
+    topLabel.TextScaled = false
+    topLabel.RichText = true
+    topLabel.TextSize = 9
+    topLabel.Parent = FuncPanel
+
+    local Scroller = CreateScrollFrame(
+        UDim2.new(0.1, 0, 0.15, 0),
+        UDim2.new(0.9, 0, 0.85, 0),
+        Color3.new(0,0,0), 1)
+    Scroller.Parent.Parent = FuncPanel
+    local function ClearScroll()
+        for _,v in pairs(Scroller:GetChildren()) do
+            if v:IsA("TextLabel") then
+                DeleteItem(v, 0)
+            end
+        end
+    end
+
+    local infoToggle = false
+    local dginfo = debug.getinfo(func)
+    local fs,fl,fn,fa,ff = debug.info(func,"slnaf")
+    local fName = safeString(rawget(dginfo,"name"))
+    local nParams = tonumber(safeString(rawget(dginfo,"numparams")))
+
+    local function offInfo()
+        if Scroller and Scroller.Parent and topLabel and topLabel.Parent then
+            Scroller.Parent.Visible = true
+            topLabel.Size = UDim2.new(1, 0, 0.1, 0)
+            infoToggle = false
+            if fName and #fName >= 1 then
+                fName = string.sub(fName, 1, 10)
+            else
+                fName = "noname"
+            end
+            topLabel.Text = "\n  "..fName.."("
+            for i = 1,nParams do
+                if i == nParams then
+                    topLabel.Text = topLabel.Text.."x"
+                else
+                    topLabel.Text = topLabel.Text.."x,"
+                end
+            end
+            topLabel.Text = topLabel.Text..")"
+            if not islclosure(func) then
+                topLabel.Text = topLabel.Text.."  [C]"
+            end
+        end
+    end
+
+    local function scrollDisplay(items, typ)
+        setScroller(items, Scroller, FuncPanel, typ, func)
+    end
+
+    local constantButton = CreateTextLabel(
+        UDim2.new(0, 0, 1, 0-15),
+        UDim2.new(1/3, 0, 0, 15),
+        Color3.new(0,0,0), 0.9,
+        Color3.new(1,1,1) --TextColor
+    )
+    constantButton.TextXAlignment = Enum.TextXAlignment.Center
+	constantButton.TextYAlignment = Enum.TextYAlignment.Center
+    constantButton.TextScaled = false
+    constantButton.RichText = true
+    constantButton.TextSize = 9
+    constantButton.Text = "Const"
+    constantButton.Parent = topLabel
+    local upvalButton = constantButton:Clone()
+    upvalButton.Text = "Upval"
+    upvalButton.Position = UDim2.new(1/3, 0, 1, 0-15)
+    upvalButton.Parent = topLabel
+    local protoButton = constantButton:Clone()
+    protoButton.Text = "Proto"
+    protoButton.Position = UDim2.new(2/3, 0, 1, 0-15)
+    protoButton.Parent = topLabel
+    constantButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if infoToggle == false then
+            else
+                offInfo()
+            end
+            ClearScroll()
+            local _,err = pcall(function()
+                local constants = debug.getconstants(func)
+                scrollDisplay(constants, 1)
+            end)
+            if err then topLabel.Text = err end
+        end
+    end)
+    upvalButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if infoToggle == false then
+            else
+                offInfo()
+            end
+            ClearScroll()
+            local _,err = pcall(function()
+                local upvals = debug.getupvalues(func)
+                scrollDisplay(upvals, 2)
+            end)
+            if err then topLabel.Text = err end
+        end
+    end)
+    protoButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if infoToggle == false then
+            else
+                offInfo()
+            end
+            ClearScroll()
+            local _,err = pcall(function()
+                if islclosure(func) then
+                    local protos = debug.getprotos(func)
+                    scrollDisplay(protos, 3)
+                end
+            end)
+            if err then topLabel.Text = err end
+        end
+    end)
+
+    offInfo()
+    local moreinfo = CreateTextLabel(
+        UDim2.new(1, -20, 0, 0),
+        UDim2.new(0, 20, 0, 20),
+        Color3.new(0,0,0), 1,
+        Color3.new(1,1,1) --TextColor
+    )
+    moreinfo.TextScaled = true
+    moreinfo.Text = "ⓘ"
+    moreinfo.ZIndex = 10
+    moreinfo.Parent = topLabel
+    moreinfo.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if fName and #fName >= 1 then
+                fName = string.sub(fName, 1, 20)
+            else
+                fName = "noname"
+            end
+            topLabel.Text = "\n  "..fName.."("
+            for i = 1,nParams do
+                if i == nParams then
+                    topLabel.Text = topLabel.Text.."x"
+                else
+                    topLabel.Text = topLabel.Text.."x,"
+                end
+            end
+            topLabel.Text = topLabel.Text..")"
+            if not islclosure(func) then
+                topLabel.Text = topLabel.Text.."  [C]"
+            end
+
+            if infoToggle == false then
+                if Scroller and Scroller.Parent and topLabel and topLabel.Parent then
+                    ClearScroll()
+                    Scroller.Parent.Visible = false
+                    topLabel.Text =  topLabel.Text.."\n\n  • Source:"
+                    local srcSplit = string.split(safeString(fs),".")
+                    for i,v in pairs(srcSplit) do
+                        topLabel.Text =  topLabel.Text.."\n  ."..string.sub(safeString(v),1,20)..";"
+                    end
+                    topLabel.Text =  topLabel.Text.."\n\n  line: "..safeString(fl)
+                    topLabel.Text =  topLabel.Text.."\n  nups: "..safeString(rawget(dginfo,"nups"))
+                    topLabel.Text =  topLabel.Text.."\n  what: "..safeString(rawget(dginfo,"what"))
+                    topLabel.Text =  topLabel.Text.."\n  is_vararg: "..safeString(rawget(dginfo,"is_vararg"))
+                    topLabel.Text =  topLabel.Text.."\n  numparams: "..safeString(fa)
+                    topLabel.Text =  topLabel.Text.."\n  funcname: "..string.sub(safeString(fn),1,20)
+                    topLabel.Text =  topLabel.Text.."\n  namewhat: "..safeString(rawget(dginfo,"namewhat"))
+                    topLabel.Text =  topLabel.Text.."\n  LClosure: "..safeString(islclosure(func))
+                    topLabel.Text =  topLabel.Text.."\n  "..safeString(func)
+                    topLabel.Size = UDim2.new(1, 0, 1, -22)
+                    infoToggle = true
+                else
+                    offInfo()
+                    if InstaOpenConsts == true then
+                        ClearScroll()
+                        local _,err = pcall(function()
+                            local constants = debug.getconstants(func)
+                            scrollDisplay(constants, 1)
+                        end)
+                    end
+                end
+            end
+        end
+    end)
+
+    if InstaOpenConsts == true then
+        ClearScroll()
+        local _,err = pcall(function()
+            if islclosure(func) then
+                local constants = debug.getconstants(func)
+                scrollDisplay(constants, 1)
+            end
+        end)
+        if err then topLabel.Text = err end
+    end
+
+    return FuncPanel
+end
+
+function DisplayGScript(tab, GcViewPanel)
+    if AllowEdit == true then
+        FuncTrack[1] = nil
+        FuncTrack[2] = {}  
+    end
+    local GScriptPanel, GScriptTBar, ExitGScript = CreatePanel(
+        PanelTransparency,
+        UDim2.new(0, 200, 0, 600),
+        GcViewPanel.Position + UDim2.new(0, 200, 0, 0)
+    )
+    ExitGScript.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            DeleteItem(GScriptPanel, 0)
+        end
+    end)
+
+    local topLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0, 22),
+        UDim2.new(1, 0, 0.2, 0),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+
+    local scriptRaw = rawget(getfenv(tab[2][1][2]),"script")
+    topLabel.TextXAlignment = Enum.TextXAlignment.Left
+	topLabel.TextYAlignment = Enum.TextYAlignment.Top
+    topLabel.TextScaled = false
+    topLabel.RichText = true
+    topLabel.TextSize = 9
+    topLabel.Text = "\n  Overview\n"
+    topLabel.Text = topLabel.Text.."\n  Script: "..string.sub(safeString(tab[1]),1,20)
+    topLabel.Text = topLabel.Text.."\n   • raw: "..string.sub(safeString(scriptRaw),1,20)
+    if typeof(scriptRaw) == "Instance" then
+        topLabel.Text = topLabel.Text.."\n   • class: "..safeString(scriptRaw.ClassName)
+        topLabel.Text = topLabel.Text.."\n   • parent: "..string.sub(safeString(scriptRaw.Parent),1,20)
+    end
+    topLabel.Text = topLabel.Text.."\n   • amt: "..safeString(#tab[2])
+    topLabel.Parent = GScriptPanel
+
+    local Scroller = CreateScrollFrame(
+        UDim2.new(0.1, 0, 0.25, 0),
+        UDim2.new(0.9, 0, 0.75, 0),
+        Color3.new(0,0,0), 1)
+    Scroller.Parent.Parent = GScriptPanel
+
+    local LastUPanel = nil
+    for i,t in pairs(tab[2]) do
+        local f = t[2]
+        local fInfo = debug.getinfo(f)
+        local FItem = CreateTextLabel(
+            UDim2.new(0.2, 0, 0.2, 0),
+            UDim2.new(0.9, 0, 0.25, 0),
+            Color3.new(0,0,0), 0.8,
+            Color3.new(1,1,1) --TextColor
+        )
+        FItem.TextXAlignment = Enum.TextXAlignment.Left
+        FItem.TextYAlignment = Enum.TextYAlignment.Top
+        FItem.Text = "  "..rawget(fInfo,"name")
+        FItem.Name = "zzz"
+        if rawget(fInfo,"name") == "" then
+            if rawget(fInfo,"numparams") == 0 and rawget(fInfo,"currentline") == 1 and rawget(fInfo,"is_vararg") == 1 then
+                FItem.Text = "  while() do"
+                FItem.Name = "aaa"
+            else
+                if tonumber(safeString(t[1])) then
+                    FItem.Text = "  "..rawget(fInfo,"nups")..","..rawget(fInfo,"numparams")
+                else
+                    FItem.Text = "  • "..safeString(t[1])
+                end
+                FItem.Name = "zzz"..string.rep("b",11 - math.clamp(tonumber(rawget(fInfo,"nups")),1,10)  )
+            end
+        else
+            FItem.Name = "bbb"..string.rep("b",11 - math.clamp(tonumber(rawget(fInfo,"nups")),1,10)  )
+        end
+        FItem.InputBegan:Connect(function(obj)
+            if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                if LastUPanel then DeleteItem(LastUPanel,0) end
+                LastUPanel = DisplayFunc(f, GScriptPanel)
+            elseif obj.UserInputType == Enum.UserInputType.MouseButton2 then
+                rightClickPanel(t[2], obj)
+            end
+        end)
+        FItem.Parent = Scroller
+        if SlowMode == true then
+            task.wait()
+        end
+    end
+
+    return GScriptPanel
+end
+
+function rightClickPanel(v, obj)
+    local rcPanel, FuncTBar, ExitButton = CreatePanel(
+        PanelTransparency,
+        UDim2.new(0, 200, 0, 200),
+        UDim2.new(0, obj.Position.X, 0, obj.Position.Y) + UDim2.new(0, 100, 0, 0)
+    )
+    ExitButton.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            DeleteItem(rcPanel, 0)
+        end
+    end)
+    local topLabel = CreateTextLabel(
+        UDim2.new(0, 0, 0, 22),
+        UDim2.new(1, 0, 0, 20),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    topLabel.TextXAlignment = Enum.TextXAlignment.Left
+	topLabel.TextYAlignment = Enum.TextYAlignment.Center
+    topLabel.TextScaled = false
+    topLabel.TextSize = 9
+    topLabel.Text = "  "..safeString(v)
+    topLabel.Parent = rcPanel
+
+    local genpos = CreateTextLabel(
+        UDim2.new(0, 0, 1, -22),
+        UDim2.new(0.5, 0, 0, 20),
+        Color3.new(0,0,0), 0.8,
+        Color3.new(1,1,1) --TextColor
+    )
+    genpos.TextXAlignment = Enum.TextXAlignment.Center
+	genpos.TextYAlignment = Enum.TextYAlignment.Center
+    genpos.TextScaled = false
+    genpos.TextSize = 9
+    genpos.Text = "GcGrab"
+    genpos.Parent = rcPanel
+    genpos.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if typeof(v) == "function" then
+                local foundpos = 0
+                for ipos,v2 in pairs(getgc()) do
+                    if rawequal(v,v2) then
+                        foundpos = ipos
+                    end
+                end
+                if foundpos then
+                    local finfo = debug.info(v,'s')..'+'..tostring(debug.info(v,'l'))..'+'..tostring(debug.info(v,'n'))..'+'..tostring(debug.info(v,'a'))
+                    local vfinfo = "debug.info(v,'s')..'+'..tostring(debug.info(v,'l'))..'+'..tostring(debug.info(v,'n'))..'+'..tostring(debug.info(v,'a'))"
+                    local starter = "-- Generated by GCView\n\nfor i,v in pairs(getgc()) do\n"
+                    starter = starter.."\tif typeof(v) == \"function\" and rawequal('"..finfo.."', "..vfinfo..") then\n"
+                    starter = starter.."\t\tprint(i,v)\n"
+                    starter = starter.."\tend\n"
+                    starter = starter.."end\n"
+                    setclipboard(starter)
+                    genpos.Text = "Copied"
+                    task.wait(0.4)
+                    if genpos and genpos.Parent then
+                        genpos.Text = "GcFind"
+                    end
+                else
+                    genpos.Text = "Not Found"
+                    task.wait(1)
+                    if genpos and genpos.Parent then
+                        genpos.Text = "GcFind"
+                    end
+                end
+            elseif typeof(v) == "table" then
+                local foundpos = 0
+                for ipos,v2 in pairs(getgc(true)) do
+                    if rawequal(v,v2) then
+                        foundpos = ipos
+                    end
+                end
+                if foundpos then
+                    local finfo = tostring(v)
+                    local vfinfo = "tostring(v)"
+                    local starter = "-- Generated by GCView\n\nfor i,v in pairs(getgc(true)) do\n"
+                    starter = starter.."\tif typeof(v) == \"table\" and rawequal('"..finfo.."', "..vfinfo..") then\n"
+                    starter = starter.."\t\tprint(i,v)\n"
+                    starter = starter.."\tend\n"
+                    starter = starter.."end\n"
+                    setclipboard(starter)
+                    genpos.Text = "Copied"
+                    task.wait(0.4)
+                    if genpos and genpos.Parent then
+                        genpos.Text = "GcFind"
+                    end
+                else
+                    genpos.Text = "Not Found"
+                    task.wait(1)
+                    if genpos and genpos.Parent then
+                        genpos.Text = "GcFind"
+                    end
+                end
+            end
+        end
+    end)
+end
+
+function setScroller(items,Scroller,Panel,typ, f, viewonly)
+    local LastUPanel = nil
+    local stuff = {}
+    for i,v in pairs(items) do
+        local FItem = CreateTextLabel(
+            UDim2.new(0.2, 0, 0.2, 0),
+            UDim2.new(0.9, 0, 0.25, 0),
+            Color3.new(0,0,0), 0.8,
+            Color3.new(1,1,1) --TextColor
+        )
+        FItem.TextXAlignment = Enum.TextXAlignment.Left
+        FItem.TextYAlignment = Enum.TextYAlignment.Top
+        local vTypeof = typeof(v)
+        if vTypeof == "string" then
+            FItem.TextColor3 = Color3.new(0.6,0.9,0.5)
+            if typeof(i) ~= "number" then
+                FItem.Text = "  ["..safeString(i).."] '"..safeString(v).."'"
+            else
+                FItem.Text = "  '"..safeString(v).."'"
+            end
+            FItem.Name = "yzz"..safeString(v)
+        elseif vTypeof == "number" then
+            FItem.TextColor3 = Color3.new(0.7,0.4,1)
+            if typeof(i) ~= "number" then
+                FItem.Text = "  ["..safeString(i).."] "..safeString(v)
+            else
+                FItem.Text = "  "..safeString(v)
+            end
+            FItem.Name = "zzz"..safeString(v)
+        elseif vTypeof == "boolean" then
+            FItem.TextColor3 = Color3.new(0.8,0.3,0.3)
+            if typeof(i) ~= "number" then
+                FItem.Text = "  ["..safeString(i).."] "..safeString(v)
+            else
+                FItem.Text = "  "..safeString(v)
+            end
+            FItem.Name = "zzz"..safeString(v)
+        elseif vTypeof == "function" then
+            FItem.TextColor3 = Color3.new(0.5,0.7,1)
+            local funcName = debug.info(v,"n")
+            if string.len(safeString(funcName)) <= 0 then
+                if typeof(i) == "number" then
+                    funcName = "noname - "..safeString(i)
+                else
+                    funcName = ""
+                end
+                FItem.Name = "yyz"..safeString(v)
+            else
+                FItem.Name = "yyy"..safeString(v)
+            end
+            if typeof(i) ~= "number" or funcName == "" then
+                FItem.Text = "  ["..safeString(i).."] "..safeString(funcName)
+            else
+                FItem.Text = "  "..safeString(funcName)
+            end
+        elseif vTypeof == "table" then
+            FItem.TextColor3 = Color3.new(1,0.8,0)
+            if typeof(i) ~= "number" then
+                FItem.Text = "  ["..safeString(i).."] table #"..safeString(tableLength(v))
+            else
+                FItem.Text = "  table #"..safeString(tableLength(v))
+            end
+            FItem.Name = "xxx"..safeString(v)
+        else
+            if typeof(i) ~= "number" then
+                FItem.Text = "  ["..safeString(i).."] "..safeString(v)
+            else
+                FItem.Text = "  "..safeString(v)
+            end
+            FItem.Name = "www"..safeString(v) 
+        end
+
+        if viewonly then
+            table.insert(stuff, FItem)
+        else
+            FItem.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    if AllowEdit == true and f then
+                        FuncTrack[1] = f
+                    end
+                    if vTypeof == "function" then
+                        if AllowEdit == true then
+                            if typ then
+                                FuncTrack[1] = v
+                                FuncTrack[2] = {}
+                            end
+                        end
+                        if LastUPanel then DeleteItem(LastUPanel,0) end
+                        LastUPanel = DisplayFunc(v, Panel)
+                    elseif vTypeof == "table" then
+                        if AllowEdit == true then
+                            if typ then
+                                FuncTrack[3] = typ
+                            end
+                            local a = {i,v}
+                            setmetatable(a, {
+                                __mode = "kv";
+                            })
+                            if FuncTrack[2][1] and typeof(FuncTrack[2][#FuncTrack[2]][2]) == "table" then
+                                table.insert(FuncTrack[2], a)
+                            elseif #FuncTrack[2] <= 1 then
+                                FuncTrack[2] = {a}
+                            else
+                                local fTab = false
+                                for _,v in pairs(FuncTrack[2]) do
+                                    if v[2] == items then
+                                        fTab = true
+                                        break
+                                    end
+                                end
+                                if fTab == true then
+                                    cTrack[2][#FuncTrack[2]] = a
+                                else
+                                    FuncTrack[2] = {a}
+                                end
+                            end
+                        end
+                        if LastUPanel then DeleteItem(LastUPanel,0) end
+                        LastUPanel = DisplayTable(v, Panel)
+                    else
+                        if AllowEdit == true then
+                            if typ then
+                                FuncTrack[3] = typ
+                            end
+                            local a = {i,v}
+                            setmetatable(a, {
+                                __mode = "kv";
+                            })
+                            if FuncTrack[2][1] and typeof(FuncTrack[2][#FuncTrack[2]][2]) == "table" then
+                                table.insert(FuncTrack[2], a)
+                            elseif #FuncTrack[2] <= 1 then
+                                FuncTrack[2] = {a}
+                            else
+                                local fTab = false
+                                for _,v in pairs(FuncTrack[2]) do
+                                    if v[2] == items then
+                                        fTab = true
+                                        break
+                                    end
+                                end
+                                if fTab == true then
+                                    FuncTrack[2][#FuncTrack[2]] = a
+                                else
+                                    FuncTrack[2] = {a}
+                                end
+                            end
+                        end
+                        if LastUPanel then DeleteItem(LastUPanel,0) end
+                        LastUPanel = DisplayInstance(v, Panel, f)
+                    end
+                elseif obj.UserInputType == Enum.UserInputType.MouseButton2 then
+                    rightClickPanel(v, obj)
+                end
+            end)
+        end
+        FItem.Parent = Scroller
+        if SlowMode == true then
+            task.wait()
+        end
+    end
+    if viewonly then
+        return stuff
+    end
+end
+
+function DisplayGC(gc,GcViewPanel)
+    local Scroller = CreateScrollFrame(
+        UDim2.new(0.1, 0, 0.05, 0),
+        UDim2.new(0.9, 0, 0.95, 0),
+        Color3.new(0,0,0), 1)
+    Scroller.Parent.Parent = GcViewPanel
+
+    if AllowEdit == true then
+        FuncTrack[1] = nil
+        FuncTrack[2] = {}  
+    end
+
+    local LastFrame = nil
+    local scripts = {} --{identifier, {funcs}}
+    for i,v in pairs(gc) do
+        if typeof(v) == "function" then
+            local vFenv = getfenv(v)
+            local vScript = rawget(vFenv,"script")
+            if typeof(vScript) ~= "Instance" then
+                for s,r in pairs(vFenv) do
+                    if typeof(r) == "function" then
+                        vScript = rawget(debug.getinfo(r),"source")
+                        break
+                    end
+                end
+            end
+
+            local isExecuterFunc = false
+            if not islclosure(v) then
+                vScript = ExecuterName
+                isExecuterFunc = true
+            elseif (is_synapse_function or isexecutorclosure)(v) then
+                vScript = ExecuterName.."_Script"
+                isExecuterFunc = true
+            end
+
+            local foundTab = {}
+            for _,s in pairs(scripts) do
+                if rawequal(s[1], vScript) then
+                    foundTab = s
+                    break
+                end
+            end
+            
+            if #foundTab == 0 then
+                local newTab = {vScript, { {i,v} }}
+                local FItem = CreateTextLabel(
+                    UDim2.new(0.2, 0, 0.2, 0),
+                    UDim2.new(0.9, 0, 0.25, 0),
+                    Color3.new(0,0,0), 0.8,
+                    Color3.new(1,1,1) --TextColor
+                )
+                if typeof(vScript) == "Instance" then
+                    FItem.Text = "  "..string.sub(safeString(vScript),1,20)
+                    FItem.Text = FItem.Text.." <"..string.sub(safeString(vScript.Parent),1,4000)..">"
+                    FItem.Name = "yyy"
+                    FItem.TextColor3 = Color3.new(1,1,1)
+                    if typeof(vScript.Parent) ~= "Instance" then
+                        FItem.Name = "bbb"
+                        FItem.TextColor3 = Color3.new(1,0.2,0.2)
+                    elseif vScript:IsDescendantOf(ReplicateFirst) then
+                        FItem.Name = "ccc"
+                        FItem.TextColor3 = Color3.new(1,0.6,0)
+                    elseif vScript.Parent and vScript.Parent:IsA("Tool") then
+                        FItem.Name = "eee"
+                        FItem.TextColor3 = Color3.new(1,0.9,0)
+                     elseif vScript.Parent and safeString(vScript.Parent.Name) == safeString(Lplr.Name) then
+                        FItem.Name = "ddd"
+                        FItem.TextColor3 = Color3.new(0.2,0.8,0.8)
+                    elseif vScript:IsDescendantOf(Lplr) then
+                        FItem.Name = "fff"
+                        FItem.TextColor3 = Color3.new(0.2,0.8,0.2)
+                    end
+
+                    if safeString(vScript.Parent) == "ChatMain"
+                    or safeString(vScript.Parent) == "CameraModule"
+                    or safeString(vScript.Parent) == "ClientChatModules"
+                    or safeString(vScript.Parent) == "CommandModules"
+                    or safeString(vScript.Parent) == "MessageCreatorModules"
+                    or safeString(vScript.Parent) == "ControlModule"
+                    or safeString(vScript.Parent) == "PlayerModule"
+                    or safeString(vScript.Parent) == "ZoomController"
+                    or safeString(vScript.Parent) == "Freecam"
+                    or safeString(vScript) == "AtomicBinding"
+                    or safeString(vScript) == "ChatScript"
+                    or safeString(vScript) == "ChatMain"
+                    or safeString(vScript) == "VehicleCameraCore"
+                    or safeString(vScript) == "VehicleCamera"
+                    or safeString(vScript) == "RbxCharacterSounds"
+                    or safeString(vScript) == "PlayerModule"
+                    then
+                        FItem.Name = "zzz"
+                        FItem.TextColor3 = Color3.new(0.6,0.6,0.6)
+                    end
+                else
+                    FItem.Text = "  "..string.sub(safeString(vScript),1,20)
+                    FItem.Name = "aaa"
+                    FItem.TextColor3 = Color3.new(1,0.2,1)
+                    if isExecuterFunc == true then
+                        FItem.Name = "zzzz"
+                    end
+                end
+                FItem.TextXAlignment = Enum.TextXAlignment.Left
+			    FItem.TextYAlignment = Enum.TextYAlignment.Top
+                FItem.InputBegan:Connect(function(obj)
+	                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                        if LastFrame then DeleteItem(LastFrame,0) end
+                        LastFrame = DisplayGScript(newTab, GcViewPanel)
+                    end
+                end)
+                FItem.Parent = Scroller
+                table.insert(scripts, newTab)
+            else
+                table.insert(foundTab[2], {i,v} )
+            end
+        end
+        if (i%10 == 0) and SlowMode == true then
+            task.wait()
+        end
+    end
+end
+
+local GCViewToggle = CreateTextLabel(
+	UDim2.new(0.05, 0, 0.35, 0),
+	UDim2.new(0.9, 0, 0.25, 0),
+	Color3.new(0,0,0), 0.8,
+	Color3.new(1,1,1) --TextColor
+)
+GCViewToggle.Text = "            GC View ×            "
+local PreviusGCPanel = GcViewPanel
+local GCVIEWTOGGLE = false
+GCViewToggle.InputBegan:Connect(function(obj)
+	if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+        if GCVIEWTOGGLE == false then GCVIEWTOGGLE = true
+            if PreviusGCPanel then DeleteItem(PreviusGCPanel,0) end
+            local GcViewPanel, GcViewTBar, ExitGCVIEW = CreatePanel(
+                PanelTransparency,
+                UDim2.new(0, 200, 0, 600),
+                MainCanvas.Position + UDim2.new(0, 0, 0, 90)
+            )
+            PreviusGCPanel = GcViewPanel
+            ExitGCVIEW.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    DeleteItem(GcViewPanel, 0)
+                end
+            end)
+            GCViewToggle.Text = "            GC View ↑            "
+            local GotGc = getgc()
+            DisplayGC(GotGc,GcViewPanel)
+            GCViewToggle.Text = "            GC View ×            "
+        else
+            if PreviusGCPanel then DeleteItem(PreviusGCPanel,0) end
+            GCVIEWTOGGLE = false
+        end
+	end
+end)
+GCViewToggle.Parent = MainCanvas
+
+local SelectTXT = CreateTextLabel(
+	UDim2.new(0.05, 0, 0.65, 0),
+	UDim2.new(0.9, 0, 0.25, 0),
+	Color3.new(0,0,0), 0.8,
+	Color3.new(1,1,1) --TextColor
+)
+SelectTXT.Text = ""
+SelectTXT.Parent = MainCanvas
+
+function typToFunc(typ)
+    if typ == 1 then
+        return debug.getconstant
+    elseif typ == 2 then
+        return debug.getupvalue
+    elseif typ == 3 then
+        return debug.getproto
+    end
+end
+
+function typToFunc2(typ)
+    if typ == 1 then
+        return debug.setconstant
+    elseif typ == 2 then
+        return debug.setupvalue
+    elseif typ == 3 then
+        return debug.setproto
+    end
+end
+
+if AllowEdit == true then
+    local function GetSelected()
+        local cSelected = {} -- {value}
+        setmetatable(cSelected, {
+            __mode = "kv";
+        })
+        if #FuncTrack[2] > 1 then
+            local IndexId = FuncTrack[2][1][1]
+            local Found = typToFunc(FuncTrack[3])(FuncTrack[1], IndexId)
+            for _,v in pairs(FuncTrack[2]) do
+                if _ > 1 then
+                    Found = Found[v[1]]
+                end
+            end
+            cSelected[1] = Found
+        elseif #FuncTrack[2] > 0 then
+            local IndexId = FuncTrack[2][1][1]
+            local Found = typToFunc(FuncTrack[3])(FuncTrack[1], IndexId)
+            cSelected[1] = Found
+        else
+            cSelected[1] = FuncTrack[1]
+        end
+        if #cSelected > 0 then
+            return cSelected
+        else
+            return nil
+        end
+    end
+
+    local function SetSelected(newval)
+        if #FuncTrack[2] > 1 then
+            local IndexId = FuncTrack[2][1][1]
+            local Found = typToFunc(FuncTrack[3])(FuncTrack[1], IndexId)
+            for _,v in pairs(FuncTrack[2]) do
+                if _ > 1 then
+                    Found = Found[v[1]]
+                end
+            end
+           
+            local newTable = Found
+            
+            for _,v in pairs(FuncTrack[2]) do
+                if _ > 1 then
+                    endingVal = endingVal[v[1]]
+                end
+            end
+            local IndexId = FuncTrack[2][1][1]
+            typToFunc2(FuncTrack[3])(FuncTrack[1], IndexId, newTable)
+        elseif #FuncTrack[2] > 0 then
+            local IndexId = FuncTrack[2][1][1]
+            typToFunc2(FuncTrack[3])(FuncTrack[1], IndexId, newval)
+        else
+            --typToFunc2(FuncTrack[3])(FuncTrack[1], IndexId, newval)
+        end
+    end
+
+    local function ClearScroll(scrl)
+        for _,v in pairs(scrl:GetChildren()) do
+            if v:IsA("TextLabel") then
+                DeleteItem(v, 0)
+            end
+        end
+    end
+
+    local ArgumentsTable = {}
+    local topLabel
+    local extraLabel
+    local Scroller
+    local fireButton
+    local PrevSelectPanel = nil
+    local rSelected
+    SelectTXT.InputBegan:Connect(function(obj)
+        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+            if PrevSelectPanel then DeleteItem(PrevSelectPanel,0) end
+            local SelectPanel, SelectTBar,  SelectExit = CreatePanel(
+                PanelTransparency,
+                UDim2.new(0, 200, 0, 400),
+                MainCanvas.Position + UDim2.new(0, -210, 0, 0)
+            )
+            PrevSelectPanel = SelectPanel
+            SelectExit.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    DeleteItem(SelectPanel, 0)
+                end
+            end)
+
+            topLabel = CreateTextLabel(
+                UDim2.new(0, 0, 0, 21),
+                UDim2.new(1, 0, 0, 21),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            topLabel.TextXAlignment = Enum.TextXAlignment.Left
+            topLabel.TextYAlignment = Enum.TextYAlignment.Center
+            topLabel.TextScaled = true
+            topLabel.Text = "  "
+            topLabel.Parent = SelectPanel
+
+            copyButton = CreateTextLabel(
+                UDim2.new(0, 1, 0, 43),
+                UDim2.new(0.5, -1, 0, 24),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            copyButton.TextXAlignment = Enum.TextXAlignment.Center
+            copyButton.TextYAlignment = Enum.TextYAlignment.Center
+            copyButton.TextScaled = true
+            copyButton.Text = "Copy to\n args"
+            copyButton.Parent = SelectPanel
+            copyButton.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    if rSelected then
+                        table.insert(ArgumentsTable, rSelected[1])
+                    end
+                end
+            end)
+
+            setButton = CreateTextLabel(
+                UDim2.new(0.5, 1, 0, 43),
+                UDim2.new(0.5, -1, 0, 24),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            setButton.TextXAlignment = Enum.TextXAlignment.Center
+            setButton.TextYAlignment = Enum.TextYAlignment.Center
+            setButton.TextScaled = true
+            setButton.Text = "Set as\n args[1]"
+            setButton.Parent = SelectPanel
+            setButton.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    if rSelected then
+                        if ArgumentsTable[1] then
+                            SetSelected(ArgumentsTable[1])
+                        else
+                            task.spawn(function()
+                                setButton.Text = "put smthn on Args[1]"
+                                task.wait(1)
+                                setButton.Text = "Set as\n args[1]"
+                            end)
+                        end
+                    end
+                end
+            end)
+
+            fireButton = CreateTextLabel(
+                UDim2.new(0, 1, 0, 175),
+                UDim2.new(1, -1, 0, 24),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            fireButton.TextXAlignment = Enum.TextXAlignment.Center
+            fireButton.TextYAlignment = Enum.TextYAlignment.Center
+            fireButton.TextScaled = false
+            fireButton.Visible = false
+            fireButton.Text = "fire function(args)"
+            fireButton.Parent = SelectPanel
+            fireButton.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    if rSelected then
+                        local returnedValue = nil
+                        local _,err = pcall(function()
+                            returnedValue = rSelected[1](table.unpack(ArgumentsTable))
+                        end)
+                    end
+                end
+            end)
+
+            hookButton = CreateTextLabel(
+                UDim2.new(0, 1, 0, 150),
+                UDim2.new(1, -1, 0, 24),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            hookButton.TextXAlignment = Enum.TextXAlignment.Center
+            hookButton.TextYAlignment = Enum.TextYAlignment.Center
+            hookButton.TextScaled = false
+            hookButton.Visible = false
+            hookButton.Text = "clear function"
+            hookButton.Parent = SelectPanel
+            hookButton.InputBegan:Connect(function(obj)
+                if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                    if rSelected then
+                        local  _,err = pcall(function()
+                            hookfunction(rSelected[1], function()
+                                return wait(99999)
+                            end)
+                        end)
+                        if err then
+                            hookButton.Text = err
+                        else
+                            task.spawn(function()
+                                hookButton.Text = "cleared"
+                                task.wait(1)
+                                hookButton.Text = "clear function"
+                            end)
+                        end
+                    end
+                end
+            end)
+            fireButton.Changed:Connect(function()
+                hookButton.Visible = fireButton.Visible
+            end)
+
+            argsLabel = CreateTextLabel(
+                UDim2.new(0, 0, 1, -200),
+                UDim2.new(1, 0, 0, 16),
+                Color3.new(0,0,0), 0.8,
+                Color3.new(1,1,1) --TextColor
+            )
+            argsLabel.TextXAlignment = Enum.TextXAlignment.Center
+            argsLabel.TextYAlignment = Enum.TextYAlignment.Center
+            argsLabel.TextScaled = true
+            argsLabel.Text = "  args  "
+            argsLabel.Parent = SelectPanel
+
+            local Grid
+            Scroller,Grid = CreateScrollFrame(
+                UDim2.new(0, 15, 1, -176),
+                UDim2.new(1, -15, 0, 176),
+                Color3.new(0,0,0), 1)
+            Scroller.Parent.Parent = SelectPanel
+            Grid.SortOrder = Enum.SortOrder.LayoutOrder
+        end
+    end)
+
+    local lastargt = #ArgumentsTable
+    local buttonConnections = {}
+    while task.wait() do
+        if ScriptIsDead == false then
+            if FuncTrack[1] then
+                local _,err = pcall(function()
+                    rSelected = GetSelected()
+                    if rSelected then
+                        if SelectTXT.Text ~= safeString(rSelected[1]) then
+                            SelectTXT.Text = safeString(rSelected[1])
+                            if topLabel then
+                                local theTypeof = typeof(rSelected[1])
+                                if theTypeof == "function" then
+                                    fireButton.Visible = true
+                                else
+                                    fireButton.Visible = false
+                                end
+                                topLabel.Text = "  "..SelectTXT.Text
+                            end
+                        end
+                    else
+                        SelectTXT.Text = "value not found"
+                    end
+                end)
+                if err then
+                    if string.find(err, "index has to be greater than") or string.find(err, "index is out of bounds") then
+                        SelectTXT.Text = "unfound Value ["..safeString(#FuncTrack[2]).."]"
+                    else
+                        SelectTXT.Text = err
+                    end
+                    if topLabel then
+                        topLabel.Text = "  "..string.sub(SelectTXT.Text,1,40)
+                    end
+                end
+            else
+                SelectTXT.Text = ""
+            end
+
+            if #ArgumentsTable ~= lastargt and Scroller then
+                ClearScroll(Scroller)
+                for _,c in pairs(buttonConnections) do
+                    c:Disconnect()
+                end
+                local items = setScroller(ArgumentsTable, Scroller, nil, nil, nil, true)
+                for ii,itm in pairs(items) do
+                    local vCon; vCon = itm.InputBegan:Connect(function(obj)
+                        if obj.UserInputType == Enum.UserInputType.MouseButton1 then
+                            table.remove(ArgumentsTable, ii)
+                            for _,c in pairs(buttonConnections) do
+                                c:Disconnect()
+                            end
+                            --return
+                        end
+                    end)
+                    table.insert(buttonConnections, vCon)
+                end
+            end
+            lastargt = #ArgumentsTable
+        else
+            break
+        end
+    end
+else
+    SelectTXT.Text = "Edit Disabled"
+    SelectTXT.TextScaled = false
+    SelectTXT.TextSize = 10
+end
